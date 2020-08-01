@@ -1,0 +1,3 @@
+[submodule "groff-mirror"]
+	path = groff-mirror
+	url = https://github.com/pestophagous/groff-mirror.git
