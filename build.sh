@@ -10,6 +10,10 @@ CUR_GIT_ROOT=$(git rev-parse --show-toplevel)
 MYCFLAGS="-g -O0"
 MYCXXFLAGS="-g -O0"
 
+BUILD_DATE=`date '+%Y-%m-%d_%H.%M'`
+LAST_KNOWN_HASH=`git rev-parse --verify --short=10 HEAD`
+MYVERSION="${BUILD_DATE}_${LAST_KNOWN_HASH}"
+
 cd ${CUR_GIT_ROOT}
 mkdir -p build
 mkdir -p local_install
@@ -34,7 +38,16 @@ pushd ${BUILD_ROOT} >& /dev/null
     bash -x ${CUR_GIT_ROOT}/groff-mirror/configure --with-x --prefix=${INSTALL_ROOT}
   fi
 
+  rm -f ${BUILD_ROOT}/src/roff/troff/majorminor.cpp
+  rm -f ${BUILD_ROOT}/src/libs/libgroff/version.cpp
+
   make V=1 CFLAGS="${MYCFLAGS}" CXXFLAGS="${MYCXXFLAGS}" -j4
+
+  sed -i "s/\bUNKNOWN\b/$MYVERSION/" ${BUILD_ROOT}/src/roff/troff/majorminor.cpp
+  sed -i "s/\bUNKNOWN\b/$MYVERSION/" ${BUILD_ROOT}/src/libs/libgroff/version.cpp
+
+  make V=1 CFLAGS="${MYCFLAGS}" CXXFLAGS="${MYCXXFLAGS}" -j4
+
   make V=1 install
 
 popd >& /dev/null
