@@ -10,3 +10,13 @@ roff
 Notes on Repeatability (For Diff-based Tests)
 
 PDF contains creation/modification timestamp
+
+Subset of things to install before compiling groff
+
+ # Ubuntu 18.04.4 LTS "bionic"
+ sudo apt install bison
+ sudo apt install texinfo
+ sudo apt install libuchardet-dev
+ sudo apt install psutils
+ sudo apt install libxmu-dev
+ sudo apt install libxaw7-dev # athena widgets for gxditview
