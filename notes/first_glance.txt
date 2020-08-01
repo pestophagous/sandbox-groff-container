@@ -1,0 +1,12 @@
+
+File Extensions Assocated with Groff
+
+man
+mm
+mom
+ms
+roff
+
+Notes on Repeatability (For Diff-based Tests)
+
+PDF contains creation/modification timestamp
