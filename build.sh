@@ -7,6 +7,9 @@ set -Eeuxo pipefail # https://vaneyckt.io/posts/safer_bash_scripts_with_set_euxo
 
 CUR_GIT_ROOT=$(git rev-parse --show-toplevel)
 
+MYCFLAGS="-g -O0"
+MYCXXFLAGS="-g -O0"
+
 cd ${CUR_GIT_ROOT}
 mkdir -p build
 mkdir -p local_install
@@ -31,7 +34,7 @@ pushd ${BUILD_ROOT} >& /dev/null
     bash -x ${CUR_GIT_ROOT}/groff-mirror/configure --with-x --prefix=${INSTALL_ROOT}
   fi
 
-  make -j4
-  make install
+  make V=1 CFLAGS="${MYCFLAGS}" CXXFLAGS="${MYCXXFLAGS}" -j4
+  make V=1 install
 
 popd >& /dev/null
