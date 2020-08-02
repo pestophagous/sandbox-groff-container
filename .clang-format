@@ -81,10 +81,10 @@ NamespaceIndentation: Inner
 ObjCBlockIndentWidth: 3
 ObjCSpaceAfterProperty: true
 ObjCSpaceBeforeProtocolList: false
-PenaltyBreakAssignment: 2
+PenaltyBreakAssignment: 0
 PenaltyBreakBeforeFirstCallParameter: 17
 PenaltyBreakComment: 354
-PenaltyBreakFirstLessLess: 150
+PenaltyBreakFirstLessLess: 90
 PenaltyBreakString: 871
 PenaltyExcessCharacter: 678476
 PenaltyReturnTypeOnItsOwnLine: 151
@@ -95,7 +95,7 @@ RawStringFormats:
   Language: TextProto
 ReflowComments: false
 SortIncludes: false
-SortUsingDeclarations: false
+SortUsingDeclarations: true
 SpaceAfterCStyleCast: false
 SpaceAfterTemplateKeyword: true
 SpaceBeforeAssignmentOperators: true
