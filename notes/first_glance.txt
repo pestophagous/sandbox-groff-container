@@ -1,15 +1,21 @@
 
 File Extensions Assocated with Groff
 
-man
-mm
-mom
-ms
-roff
+ man
+ mm
+ mom
+ ms
+ roff
 
 Notes on Repeatability (For Diff-based Tests)
 
-PDF contains creation/modification timestamp
+ Using -Z (see man groff_out) to examine "raw/intermediate" groff output is desirable.
+
+ PDF contains creation/modification timestamp
+ PS likewise contains timestamp and groff version info
+
+ PDF postprocessor is in Perl.
+ PS postprocessor is in C++.
 
 Subset of things to install before compiling groff
 
