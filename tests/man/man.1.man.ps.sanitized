@@ -1,0 +1,1270 @@
+%!PS-Adobe-3.0
+%%Creator: groff version 9.99.9
+%%CreationDate: Thu Jan  1 01:28:32 1970
+%%DocumentNeededResources: font Times-Roman
+%%+ font Times-Bold
+%%+ font Times-Italic
+%%+ font Symbol
+%%DocumentSuppliedResources: procset grops 9.99 9
+%%Pages: 10
+%%PageOrder: Ascend
+%%DocumentMedia: Default 612 792 0 () ()
+%%Orientation: Portrait
+%%EndComments
+%%BeginDefaults
+%%PageMedia: Default
+%%EndDefaults
+%%BeginProlog
+%%BeginResource: procset grops 9.99 9
+%!PS-Adobe-3.0 Resource-ProcSet
+/setpacking where{
+pop
+currentpacking
+true setpacking
+}if
+/grops 120 dict dup begin
+/SC 32 def
+/A/show load def
+/B{0 SC 3 -1 roll widthshow}bind def
+/C{0 exch ashow}bind def
+/D{0 exch 0 SC 5 2 roll awidthshow}bind def
+/E{0 rmoveto show}bind def
+/F{0 rmoveto 0 SC 3 -1 roll widthshow}bind def
+/G{0 rmoveto 0 exch ashow}bind def
+/H{0 rmoveto 0 exch 0 SC 5 2 roll awidthshow}bind def
+/I{0 exch rmoveto show}bind def
+/J{0 exch rmoveto 0 SC 3 -1 roll widthshow}bind def
+/K{0 exch rmoveto 0 exch ashow}bind def
+/L{0 exch rmoveto 0 exch 0 SC 5 2 roll awidthshow}bind def
+/M{rmoveto show}bind def
+/N{rmoveto 0 SC 3 -1 roll widthshow}bind def
+/O{rmoveto 0 exch ashow}bind def
+/P{rmoveto 0 exch 0 SC 5 2 roll awidthshow}bind def
+/Q{moveto show}bind def
+/R{moveto 0 SC 3 -1 roll widthshow}bind def
+/S{moveto 0 exch ashow}bind def
+/T{moveto 0 exch 0 SC 5 2 roll awidthshow}bind def
+/SF{
+findfont exch
+[exch dup 0 exch 0 exch neg 0 0]makefont
+dup setfont
+[exch/setfont cvx]cvx bind def
+}bind def
+/MF{
+findfont
+[5 2 roll
+0 3 1 roll
+neg 0 0]makefont
+dup setfont
+[exch/setfont cvx]cvx bind def
+}bind def
+/level0 0 def
+/RES 0 def
+/PL 0 def
+/LS 0 def
+/MANUAL{
+statusdict begin/manualfeed true store end
+}bind def
+/PLG{
+gsave newpath clippath pathbbox grestore
+exch pop add exch pop
+}bind def
+/BP{
+/level0 save def
+1 setlinecap
+1 setlinejoin
+DEFS/BPhook known{DEFS begin BPhook end}if
+72 RES div dup scale
+LS{
+90 rotate
+}{
+0 PL translate
+}ifelse
+1 -1 scale
+}bind def
+/EP{
+level0 restore
+showpage
+}def
+/DA{
+newpath arcn stroke
+}bind def
+/SN{
+transform
+.25 sub exch .25 sub exch
+round .25 add exch round .25 add exch
+itransform
+}bind def
+/DL{
+SN
+moveto
+SN
+lineto stroke
+}bind def
+/DC{
+newpath 0 360 arc closepath
+}bind def
+/TM matrix def
+/DE{
+TM currentmatrix pop
+translate scale newpath 0 0 .5 0 360 arc closepath
+TM setmatrix
+}bind def
+/RC/rcurveto load def
+/RL/rlineto load def
+/ST/stroke load def
+/MT/moveto load def
+/CL/closepath load def
+/Fr{
+setrgbcolor fill
+}bind def
+/setcmykcolor where{
+pop
+/Fk{
+setcmykcolor fill
+}bind def
+}if
+/Fg{
+setgray fill
+}bind def
+/FL/fill load def
+/LW/setlinewidth load def
+/Cr/setrgbcolor load def
+/setcmykcolor where{
+pop
+/Ck/setcmykcolor load def
+}if
+/Cg/setgray load def
+/RE{
+findfont
+dup maxlength 1 index/FontName known not{1 add}if dict begin
+{
+1 index/FID ne
+2 index/UniqueID ne
+and
+{def}{pop pop}ifelse
+}forall
+/Encoding exch def
+dup/FontName exch def
+currentdict end definefont pop
+}bind def
+/DEFS 0 def
+/EBEGIN{
+moveto
+DEFS begin
+}bind def
+/EEND/end load def
+/CNT 0 def
+/level1 0 def
+/PBEGIN{
+/level1 save def
+translate
+div 3 1 roll div exch scale
+neg exch neg exch translate
+0 setgray
+0 setlinecap
+1 setlinewidth
+0 setlinejoin
+10 setmiterlimit
+[]0 setdash
+/setstrokeadjust where{
+pop
+false setstrokeadjust
+}if
+/setoverprint where{
+pop
+false setoverprint
+}if
+newpath
+/CNT countdictstack def
+userdict begin
+/showpage{}def
+/setpagedevice{}def
+mark
+}bind def
+/PEND{
+cleartomark
+countdictstack CNT sub{end}repeat
+level1 restore
+}bind def
+end def
+/setpacking where{
+pop
+setpacking
+}if
+%%EndResource
+%%EndProlog
+%%BeginSetup
+%%BeginFeature: *PageSize Default
+<< /PageSize [ 612 792 ] /ImagingBBox null >> setpagedevice
+%%EndFeature
+%%IncludeResource: font Times-Roman
+%%IncludeResource: font Times-Bold
+%%IncludeResource: font Times-Italic
+%%IncludeResource: font Symbol
+grops begin/DEFS 1 dict def DEFS begin/u{.001 mul}bind def end/RES 72
+def/PL 792 def/LS false def/ENC0[/asciicircum/asciitilde/Scaron/Zcaron
+/scaron/zcaron/Ydieresis/trademark/quotesingle/Euro/.notdef/.notdef
+/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef
+/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef
+/.notdef/.notdef/space/exclam/quotedbl/numbersign/dollar/percent
+/ampersand/quoteright/parenleft/parenright/asterisk/plus/comma/hyphen
+/period/slash/zero/one/two/three/four/five/six/seven/eight/nine/colon
+/semicolon/less/equal/greater/question/at/A/B/C/D/E/F/G/H/I/J/K/L/M/N/O
+/P/Q/R/S/T/U/V/W/X/Y/Z/bracketleft/backslash/bracketright/circumflex
+/underscore/quoteleft/a/b/c/d/e/f/g/h/i/j/k/l/m/n/o/p/q/r/s/t/u/v/w/x/y
+/z/braceleft/bar/braceright/tilde/.notdef/quotesinglbase/guillemotleft
+/guillemotright/bullet/florin/fraction/perthousand/dagger/daggerdbl
+/endash/emdash/ff/fi/fl/ffi/ffl/dotlessi/dotlessj/grave/hungarumlaut
+/dotaccent/breve/caron/ring/ogonek/quotedblleft/quotedblright/oe/lslash
+/quotedblbase/OE/Lslash/.notdef/exclamdown/cent/sterling/currency/yen
+/brokenbar/section/dieresis/copyright/ordfeminine/guilsinglleft
+/logicalnot/minus/registered/macron/degree/plusminus/twosuperior
+/threesuperior/acute/mu/paragraph/periodcentered/cedilla/onesuperior
+/ordmasculine/guilsinglright/onequarter/onehalf/threequarters
+/questiondown/Agrave/Aacute/Acircumflex/Atilde/Adieresis/Aring/AE
+/Ccedilla/Egrave/Eacute/Ecircumflex/Edieresis/Igrave/Iacute/Icircumflex
+/Idieresis/Eth/Ntilde/Ograve/Oacute/Ocircumflex/Otilde/Odieresis
+/multiply/Oslash/Ugrave/Uacute/Ucircumflex/Udieresis/Yacute/Thorn
+/germandbls/agrave/aacute/acircumflex/atilde/adieresis/aring/ae/ccedilla
+/egrave/eacute/ecircumflex/edieresis/igrave/iacute/icircumflex/idieresis
+/eth/ntilde/ograve/oacute/ocircumflex/otilde/odieresis/divide/oslash
+/ugrave/uacute/ucircumflex/udieresis/yacute/thorn/ydieresis]def
+/Times-Italic@0 ENC0/Times-Italic RE/Times-Bold@0 ENC0/Times-Bold RE
+/Times-Roman@0 ENC0/Times-Roman RE
+%%EndSetup
+%%Page: 1 1
+%%BeginPageSetup
+BP
+%%EndPageSetup
+/F0 10/Times-Roman@0 SF 159.015(MAN\(1\) Manual)72 48 R(pager utils)2.5
+E(MAN\(1\))161.515 E/F1 10.95/Times-Bold@0 SF -.219(NA)72 84 S(ME).219 E
+F0(man \255 an interf)108 96 Q(ace to the on-line reference manuals)-.1
+E F1(SYNOPSIS)72 112.8 Q/F2 10/Times-Bold@0 SF(man)108 124.8 Q F0([)
+3.186 E F2<ad43>1.666 E/F3 10/Times-Italic@0 SF(\214le)3.186 E F0 3.186
+(][)1.846 G F2<ad64>-1.52 E F0 3.185(][)1.666 G F2<ad44>-1.519 E F0
+3.185(][)1.666 G F2<adad776172>-1.519 E(nings)-.15 E F0 1.666([=)1.666 G
+F3(warnings)-1.326 E F0 -2.647 1.666(]] [)1.936 H F2<ad52>A F3(encoding)
+3.185 E F0 3.185(][)1.886 G F2<ad4c>-1.519 E F3(locale)3.185 E F0 3.185
+(][)1.846 G F2<ad6d>-1.519 E F3(system)3.185 E F0 1.666([,)1.986 G 1.666
+(...]])-1.666 G([)108 136.8 Q F2<ad4d>1.666 E F3(path)4.967 E F0 4.967
+(][)1.946 G F2<ad53>-3.301 E F3(list)4.967 E F0 4.967(][)2.346 G F2
+<ad65>-3.301 E F3 -.2(ex)4.967 G(tension).2 E F0 4.967(][)1.906 G F2
+<ad69>-3.301 E F0(|)1.666 E F2<ad49>1.666 E F0 4.967(][)1.666 G F2
+<adad72>-3.301 E(egex)-.18 E F0(|)1.666 E F2(\255\255wildcard)1.666 E F0
+4.967(][)1.666 G F2(\255\255names\255only)-3.301 E F0 4.967(][)1.666 G
+F2<ad61>-3.301 E F0 4.967(][)1.666 G F2<ad75>-3.301 E F0(])1.666 E([)108
+148.8 Q F2(\255\255no\255subpages)1.666 E F0 3.257(][)1.666 G F2<ad50>
+-1.591 E F3(pa)3.257 E -.1(ge)-.1 G(r).1 E F0 3.257(][)2.396 G F2<ad72>
+-1.591 E F3(pr)3.257 E(ompt)-.45 E F0 3.257(][)2.346 G F2<ad37>-1.591 E
+F0 3.257(][)1.666 G F2<ad45>-1.591 E F3(encoding)3.257 E F0 3.257(][)
+1.886 G F2<adad6e6fad68>-1.591 E(yphenation)-.15 E F0 3.256(][)1.666 G
+F2(\255\255no\255justi\214-)-1.59 E(cation)108 160.8 Q F0 5.664(][)1.666
+G F2<ad70>-3.998 E F3(string)5.665 E F0 5.665(][)1.886 G F2<ad74>-3.999
+E F0 5.665(][)1.666 G F2<ad54>-3.999 E F0([)1.666 E F3(de)2.016 E(vice)
+-.15 E F0 -.167 1.666(]] [)1.846 H F2<ad48>A F0([)1.666 E F3(br)1.936 E
+(owser)-.45 E F0 -.167 1.666(]] [)2.396 H F2<ad58>A F0([)1.666 E F3(dpi)
+2.016 E F0 -.167 1.666(]] [)2.026 H F2<ad5a>A F0 5.665(][)1.666 G([)
+-3.999 E F3(section)2.006 E F0(])1.906 E F3(pa)5.665 E -.1(ge)-.1 G F0
+([.).28 E F3(sec-)2.006 E(tion)108 172.8 Q F0 4.166(].)1.906 G -3.332
+1.666(..] ...)-2.5 H F2(man \255k)108 184.8 Q F0([)2.5 E F3(apr)1.996 E
+(opos options)-.45 E F0(])1.936 E F3 -.37(re)2.5 G -.1(ge)-.03 G(xp)-.1
+E F0 1.666(...)2.69 G F2(man \255K)108 196.8 Q F0([)2.5 E F2<ad77>1.666
+E F0(|)1.666 E F2<ad57>1.666 E F0 2.5(][)1.666 G F2<ad53>-.834 E F3
+(list)2.5 E F0 2.5(][)2.346 G F2<ad69>-.834 E F0(|)1.666 E F2<ad49>1.666
+E F0 2.5(][)1.666 G F2<adad72>-.834 E(egex)-.18 E F0 2.5(][)1.666 G F3
+(section)-.494 E F0(])1.906 E F3(term)2.5 E F0 1.666(...)2.82 G F2
+(man \255f)108 208.8 Q F0([)2.5 E F3(whatis options)2.006 E F0(])1.936 E
+F3(pa)3.75 E -.1(ge)-.1 G F0 1.666(...)2.78 G F2 .712(man \255l)108
+220.8 R F0([)3.212 E F2<ad43>1.666 E F3(\214le)3.212 E F0 3.212(][)1.846
+G F2<ad64>-1.546 E F0 3.212(][)1.666 G F2<ad44>-1.546 E F0 3.212(][)
+1.666 G F2<adad776172>-1.546 E(nings)-.15 E F0 1.666([=)1.666 G F3
+(warnings)-1.326 E F0 -2.62 1.666(]] [)1.936 H F2<ad52>A F3(encoding)
+3.212 E F0 3.212(][)1.886 G F2<ad4c>-1.546 E F3(locale)3.211 E F0 3.211
+(][)1.846 G F2<ad50>-1.545 E F3(pa)3.211 E -.1(ge)-.1 G(r).1 E F0 3.211
+(][)2.396 G F2<ad72>-1.545 E F3(pr)108 232.8 Q(ompt)-.45 E F0 2.5(][)
+2.346 G F2<ad37>-.834 E F0 2.5(][)1.666 G F2<ad45>-.834 E F3(encoding)
+2.5 E F0 2.5(][)1.886 G F2<ad70>-.834 E F3(string)2.5 E F0 2.5(][)1.886
+G F2<ad74>-.834 E F0 2.5(][)1.666 G F2<ad54>-.834 E F0([)1.666 E F3(de)
+2.016 E(vice)-.15 E F0 -3.332 1.666(]] [)1.846 H F2<ad48>A F0([)1.666 E
+F3(br)1.936 E(owser)-.45 E F0 -3.332 1.666(]] [)2.396 H F2<ad58>A F0([)
+1.666 E F3(dpi)2.016 E F0 -3.332 1.666(]] [)2.026 H F2<ad5a>A F0(])1.666
+E F3(\214le)4.41 E F0 1.666(...)2.68 G F2(man \255w)108 244.8 Q F0(|)
+1.666 E F2<ad57>1.666 E F0([)2.5 E F2<ad43>1.666 E F3(\214le)2.5 E F0
+2.5(][)1.846 G F2<ad64>-.834 E F0 2.5(][)1.666 G F2<ad44>-.834 E F0(])
+1.666 E F3(pa)3.75 E -.1(ge)-.1 G F0 1.666(...)2.78 G F2(man \255c)108
+256.8 Q F0([)2.5 E F2<ad43>1.666 E F3(\214le)2.5 E F0 2.5(][)1.846 G F2
+<ad64>-.834 E F0 2.5(][)1.666 G F2<ad44>-.834 E F0(])1.666 E F3(pa)3.75
+E -.1(ge)-.1 G F0 1.666(...)2.78 G F2(man)108 268.8 Q F0([)2.5 E F2
+(\255?V)1.666 E F0(])1.666 E F1(DESCRIPTION)72 285.6 Q F2(man)108 297.6
+Q F0 .34(is the system')2.84 F 2.84(sm)-.55 G .34(anual pager)-2.84 F
+5.34(.E)-.55 G(ach)-5.34 E F3(pa)4.09 E -.1(ge)-.1 G F0(ar)3.12 E .34
+(gument gi)-.18 F -.15(ve)-.25 G 2.84(nt).15 G(o)-2.84 E F2(man)2.84 E
+F0 .34(is normally the name of a program,)2.84 F .378
+(utility or function.)108 309.6 R(The)5.378 E F3 .378(manual pa)3.258 F
+-.1(ge)-.1 G F0 .377(associated with each of these ar)3.158 F .377
+(guments is then found and displayed.)-.18 F(A)108 321.6 Q F3(section)
+3.017 E F0 3.017(,i).24 G 3.017(fp)-3.017 G(ro)-3.017 E .517
+(vided, will direct)-.15 F F2(man)3.017 E F0 .517(to look only in that)
+3.017 F F3(section)3.358 E F0 .518(of the manual.)3.258 F .518(The def)
+5.518 F .518(ault action is to)-.1 F .028(search in all of the a)108
+333.6 R -.25(va)-.2 G(ilable).25 E F3(sections)2.528 E F0(follo)2.528 E
+.027
+(wing a pre-de\214ned order \("1 n l 8 3 2 3posix 3pm 3perl 3am 5 4 9)
+-.25 F 2.615(67)108 345.6 S 2.615("b)-2.615 G 2.615(yd)-2.615 G(ef)
+-2.615 E .115(ault, unless o)-.1 F -.15(ve)-.15 G .115(rridden by the)
+.15 F F2(SECTION)2.615 E F0(directi)2.615 E .415 -.15(ve i)-.25 H(n).15
+E F3(/etc/manpath.con\214g)2.615 E F0 .115(\), and to sho).22 F 2.615
+(wo)-.25 G .115(nly the)-2.615 F(\214rst)108 357.6 Q F3(pa)3.75 E -.1
+(ge)-.1 G F0(found, e)2.78 E -.15(ve)-.25 G 2.5(ni).15 G(f)-2.5 E F3(pa)
+3.75 E -.1(ge)-.1 G F0 -.15(ex)2.78 G(ists in se).15 E -.15(ve)-.25 G
+(ral).15 E F3(sections)2.5 E F0(.).27 E(The table belo)108 381.6 Q 2.5
+(ws)-.25 G(ho)-2.5 E(ws the)-.25 E F3(section)2.84 E F0
+(numbers of the manual follo)2.74 E(wed by the types of pages the)-.25 E
+2.5(yc)-.15 G(ontain.)-2.5 E(1)108 410.4 Q(Ex)128 410.4 Q
+(ecutable programs or shell commands)-.15 E(2)108 422.4 Q
+(System calls \(functions pro)128 422.4 Q(vided by the k)-.15 E(ernel\))
+-.1 E(3)108 434.4 Q
+(Library calls \(functions within program libraries\))128 434.4 Q(4)108
+446.4 Q(Special \214les \(usually found in)128 446.4 Q F3(/de)2.5 E(v)
+-.15 E F0(\)).32 E(5)108 458.4 Q(File formats and con)128 458.4 Q -.15
+(ve)-.4 G(ntions e).15 E(g)-.15 E F3(/etc/passwd)2.5 E F0(6)108 470.4 Q
+(Games)128 470.4 Q(7)108 482.4 Q
+(Miscellaneous \(including macro packages and con)128 482.4 Q -.15(ve)
+-.4 G(ntions\), e.g.).15 E F2(man)2.5 E F0(\(7\),)A F2(gr)2.5 E(off)-.18
+E F0(\(7\))A(8)108 494.4 Q
+(System administration commands \(usually only for root\))128 494.4 Q(9)
+108 506.4 Q -.25(Ke)128 506.4 S(rnel routines [).25 E(Non standard)1.666
+E(])1.666 E 2.5(Am)108 530.4 S(anual)-2.5 E F3(pa)3.75 E -.1(ge)-.1 G F0
+(consists of se)2.78 E -.15(ve)-.25 G(ral sections.).15 E(Con)108 554.4
+Q -.15(ve)-.4 G 4.696(ntional section names include).15 F F2 -.2(NA)
+7.196 G(ME).2 E F0(,)A F2(SYNOPSIS)7.196 E F0(,)A F2(CONFIGURA)7.195 E
+(TION)-.95 E F0(,)A F2(DESCRIPTION)7.195 E F0(,)A F2(OPTIONS)108 566.4 Q
+F0(,)A F2(EXIT ST)4.801 E -.95(AT)-.9 G(US).95 E F0(,)A F2(RETURN V)
+4.801 E(ALUE)-1.35 E F0(,)A F2(ERR)4.802 E(ORS)-.3 E F0(,)A F2(ENVIR)
+4.802 E(ONMENT)-.3 E F0(,)A F2(FILES)4.802 E F0(,)A F2(VERSIONS)4.802 E
+F0(,)A F2(CONFORMING T)108 578.4 Q(O)-.18 E F0(,)A F2(NO)2.5 E(TES)-.4 E
+F0(,)A F2 -.1(BU)2.5 G(GS).1 E F0(,)A F2(EXAMPLE)2.5 E F0(,)A F2 -.5(AU)
+2.5 G(THORS).5 E F0 2.5(,a)C(nd)-2.5 E F2(SEE ALSO)2.5 E F0(.)A
+(The follo)108 602.4 Q(wing con)-.25 E -.15(ve)-.4 G
+(ntions apply to the).15 E F2(SYNOPSIS)2.5 E F0
+(section and can be used as a guide in other sections.)2.5 E F2
+(bold text)108 631.2 Q F0(type e)188.524 631.2 Q(xactly as sho)-.15 E
+(wn.)-.25 E F3(italic te)108 643.2 Q(xt)-.2 E F0
+(replace with appropriate ar)188.524 643.2 Q(gument.)-.18 E([)108 655.2
+Q F2(\255abc)1.666 E F0(])1.666 E(an)188.524 655.2 Q 2.5(yo)-.15 G 2.5
+(ra)-2.5 G(ll ar)-2.5 E(guments within [ ] are optional.)-.18 E F2<ad61>
+108 667.2 Q F0(|)1.666 E F2<ad62>1.666 E F0
+(options delimited by | cannot be used together)188.524 667.2 Q(.)-.55 E
+F3(ar)108 679.2 Q(gument)-.37 E F0 1.666(...)2.5 G F3(ar)188.524 679.2 Q
+(gument)-.37 E F0(is repeatable.)2.5 E([)108 691.2 Q F3 -.2(ex)1.666 G
+(pr).2 E(ession)-.37 E F0 2.5(].)1.666 G 1.666(..)-.834 G(entire)188.524
+691.2 Q F3 -.2(ex)2.5 G(pr).2 E(ession)-.37 E F0
+(within [ ] is repeatable.)2.5 E .944(Exact rendering may v)108 715.2 R
+.944(ary depending on the output de)-.25 F 3.444(vice. F)-.25 F .943
+(or instance, man will usually not be able to)-.15 F(render italics whe\
+n running in a terminal, and will typically use underlined or coloured \
+te)108 727.2 Q(xt instead.)-.15 E 188.17(2.8.3 2018-04-05)72 768 R(1)
+205.67 E 0 Cg EP
+%%Page: 2 2
+%%BeginPageSetup
+BP
+%%EndPageSetup
+/F0 10/Times-Roman@0 SF 159.015(MAN\(1\) Manual)72 48 R(pager utils)2.5
+E(MAN\(1\))161.515 E .199(The command or function illustration is a pat\
+tern that should match all possible in)108 84 R -.2(vo)-.4 G 2.7
+(cations. In).2 F .2(some cases)2.7 F .274
+(it is advisable to illustrate se)108 96 R -.15(ve)-.25 G .274(ral e).15
+F(xclusi)-.15 E .574 -.15(ve i)-.25 H -1.9 -.4(nv o).15 H .274
+(cations as is sho).4 F .273(wn in the)-.25 F/F1 10/Times-Bold@0 SF
+(SYNOPSIS)2.773 E F0 .273(section of this man-)2.773 F(ual page.)108 108
+Q/F2 10.95/Times-Bold@0 SF(EXAMPLES)72 124.8 Q F1(man)108 136.8 Q/F3 10
+/Times-Italic@0 SF(ls)2.5 E F0(Display the manual page for the)127.72
+148.8 Q F3(item)2.51 E F0(\(program\))2.82 E F3(ls)2.5 E F0(.).27 E F1
+(man)108 165.6 Q F3(man)2.5 E F0(.)A F3(7)A F0
+(Display the manual page for macro package)127.72 177.6 Q F3(man)2.88 E
+F0(from section)2.74 E F3(7)2.5 E F0(.)A F1(man \255a)108 194.4 Q F3
+(intr)2.5 E(o)-.45 E F0(Display)127.72 206.4 Q 2.556(,i)-.65 G 2.556(ns)
+-2.556 G .056(uccession, all of the a)-2.556 F -.25(va)-.2 G(ilable).25
+E F3(intr)2.566 E(o)-.45 E F0 .056
+(manual pages contained within the manual.)2.736 F .057(It is possi-)
+5.057 F(ble to quit between successi)127.72 218.4 Q .3 -.15(ve d)-.25 H
+(isplays or skip an).15 E 2.5(yo)-.15 G 2.5(ft)-2.5 G(hem.)-2.5 E F1
+(man \255t)108 235.2 Q F3(alias)2.5 E F0(|)2.5 E F3(lpr \255Pps)2.5 E F0
+-.15(Fo)127.72 247.2 S .971(rmat the manual page referenced by `).15 F
+F3(alias).33 E F0 .971(', usually a shell manual page, into the def).27
+F(ault)-.1 E F1(tr)3.47 E(off)-.18 E F0(or)3.47 E F1(gr)127.72 259.2 Q
+(off)-.18 E F0 .997(format and pipe it to the printer named)3.497 F F3
+(ps)3.498 E F0 5.998(.T).27 G .998(he def)-5.998 F .998(ault output for)
+-.1 F F1(gr)3.498 E(off)-.18 E F0 .998(is usually PostScript.)3.498 F F1
+(man \255\255help)127.72 271.2 Q F0
+(should advise as to which processor is bound to the)2.5 E F1<ad74>2.5 E
+F0(option.)2.5 E F1(man \255l \255T)108 288 Q F3(dvi ./foo.1x.gz).35 E
+F1(>)2.91 E F3(./foo.1x.dvi)2.73 E F0 1.52
+(This command will decompress and format the nrof)127.72 300 R 4.019(fs)
+-.25 G 1.519(ource manual page)-4.019 F F3(./foo.1x.gz)4.249 E F0 1.519
+(into a)4.429 F F1(de)4.019 E(vice)-.15 E .111(independent \(dvi\))
+127.72 312 R F0 2.611(\214le. The)2.611 F .112
+(redirection is necessary as the)2.611 F F1<ad54>2.612 E F0 .112
+(\215ag causes output to be directed to)2.612 F F1(std-)2.612 E(out)
+127.72 324 Q F0 .329(with no pager)2.829 F 5.329(.T)-.55 G .329
+(he output could be vie)-5.329 F .329(wed with a program such as)-.25 F
+F1(xdvi)2.829 E F0 .328(or further processed into)2.829 F
+(PostScript using a program such as)127.72 336 Q F1(dvips.)2.5 E
+(man \255k)108 352.8 Q F3(printf)2.5 E F0 1.116
+(Search the short descriptions and manual page names for the k)127.72
+364.8 R -.15(ey)-.1 G -.1(wo).15 G(rd).1 E F3(printf)4.867 E F0 1.117
+(as re)5.577 F 1.117(gular e)-.15 F(xpression.)-.15 E(Print out an)
+127.72 376.8 Q 2.5(ym)-.15 G 2.5(atches. Equi)-2.5 F -.25(va)-.25 G
+(lent to).25 E F1(apr)2.5 E(opos)-.18 E F3(printf)2.5 E F1(.)1.96 E
+(man \255f)108 393.6 Q F3(smail)2.5 E F0 1.962
+(Lookup the manual pages referenced by)127.72 405.6 R F3(smail)4.801 E
+F0 1.961(and print out the short descriptions of an)4.971 F 4.461(yf)
+-.15 G(ound.)-4.461 E(Equi)127.72 417.6 Q -.25(va)-.25 G(lent to).25 E
+F1(whatis)2.5 E F3(smail)2.5 E F1(.).51 E F2 -.548(OV)72 434.4 S(ER).548
+E(VIEW)-.602 E F0(Man)108 446.4 Q 2.711(yo)-.15 G .211(ptions are a)
+-2.711 F -.25(va)-.2 G .211(ilable to).25 F F1(man)2.711 E F0 .211
+(in order to gi)2.711 F .512 -.15(ve a)-.25 H 2.712(sm).15 G .212
+(uch \215e)-2.712 F .212(xibility as possible to the user)-.15 F 5.212
+(.C)-.55 G .212(hanges can)-5.212 F .947
+(be made to the search path, section order)108 458.4 R 3.447(,o)-.4 G
+.947(utput processor)-3.447 F 3.447(,a)-.4 G .946(nd other beha)-3.447 F
+.946(viours and operations detailed)-.2 F(belo)108 470.4 Q -.65(w.)-.25
+G .796(If set, v)108 494.4 R .796(arious en)-.25 F .796(vironment v)-.4
+F .796(ariables are interrog)-.25 F .796
+(ated to determine the operation of)-.05 F F1(man)3.296 E F0 5.797(.I)C
+3.297(ti)-5.797 G 3.297(sp)-3.297 G .797(ossible to)-3.297 F .898
+(set the `catch all' v)108 506.4 R .898(ariable $)-.25 F F1(MANOPT)A F0
+.898(to an)3.398 F 3.398(ys)-.15 G .897
+(tring in command line format with the e)-3.398 F .897(xception that an)
+-.15 F(y)-.15 E .967(spaces used as part of an option')108 518.4 R 3.467
+(sa)-.55 G -.18(rg)-3.467 G .967
+(ument must be escaped \(preceded by a backslash\).).18 F F1(man)5.967 E
+F0 .968(will parse)3.467 F($)108 530.4 Q F1(MANOPT)A F0 .537
+(prior to parsing its o)3.037 F .537(wn command line.)-.25 F .537
+(Those options requiring an ar)5.537 F .536(gument will be o)-.18 F -.15
+(ve)-.15 G(rrid-).15 E .176
+(den by the same options found on the command line.)108 542.4 R 1.777
+-.8(To r)5.176 H .177(eset all of the options set in $).8 F F1(MANOPT)A
+F0(,)A F1<ad44>2.677 E F0(can)2.677 E .324
+(be speci\214ed as the initial command line option.)108 554.4 R .324
+(This will allo)5.324 F 2.824(wm)-.25 G .324(an to `for)-2.824 F .324
+(get' about the options speci\214ed)-.18 F(in $)108 566.4 Q F1(MANOPT)A
+F0(although the)2.5 E 2.5(ym)-.15 G(ust still ha)-2.5 E .3 -.15(ve b)-.2
+H(een v).15 E(alid.)-.25 E 1.901(The manual pager utilities packaged as)
+108 590.4 R F1(man-db)4.401 E F0(mak)4.401 E 4.401(ee)-.1 G(xtensi)
+-4.551 E 2.202 -.15(ve u)-.25 H 1.902(se of).15 F F1(index)4.402 E F0
+1.902(database caches.)4.402 F(These)6.902 E .924(caches contain inform\
+ation such as where each manual page can be found on the \214lesystem a\
+nd what its)108 602.4 R F3(whatis)108.34 614.4 Q F0 .631
+(\(short one line description of the man page\) contains, and allo)3.401
+F(w)-.25 E F1(man)3.131 E F0 .631(to run f)3.131 F .631
+(aster than if it had to)-.1 F .211(search the \214lesystem each time t\
+o \214nd the appropriate manual page.)108 626.4 R .21
+(If requested using the)5.21 F F1<ad75>2.71 E F0(option,)2.71 E F1(man)
+2.71 E F0 1.69
+(will ensure that the caches remain consistent, which can ob)108 638.4 R
+1.691(viate the need to manually run softw)-.15 F 1.691(are to)-.1 F
+(update traditional)108 650.4 Q F3(whatis)2.84 E F0(te)2.77 E
+(xt databases.)-.15 E(If)108 674.4 Q F1(man)3.577 E F0 1.077
+(cannot \214nd a)3.577 F F1(mandb)3.577 E F0(initiated)3.577 E F1(index)
+3.577 E F0 1.076(database for a particular manual page hierarch)3.577 F
+2.376 -.65(y, i)-.05 H 3.576(tw).65 G 1.076(ill still)-3.576 F .126(sea\
+rch for the requested manual pages, although \214le globbing will be ne\
+cessary to search within that hierar)108 686.4 R(-)-.2 E(ch)108 698.4 Q
+4.299 -.65(y. I)-.05 H(f).65 E F1(whatis)2.999 E F0(or)2.999 E F1(apr)
+2.999 E(opos)-.18 E F0 -.1(fa)2.999 G .499(ils to \214nd an).1 F F1
+(index)2.998 E F0 .498(it will try to e)2.998 F .498
+(xtract information from a traditional)-.15 F F3(whatis)3.338 E F0
+(database instead.)108 710.4 Q 188.17(2.8.3 2018-04-05)72 768 R(2)205.67
+E 0 Cg EP
+%%Page: 3 3
+%%BeginPageSetup
+BP
+%%EndPageSetup
+/F0 10/Times-Roman@0 SF 159.015(MAN\(1\) Manual)72 48 R(pager utils)2.5
+E(MAN\(1\))161.515 E .44(These utilities support compressed source nrof)
+108 84 R 2.94<668c>-.25 G .44(les ha)-2.94 F .44(ving, by def)-.2 F .44
+(ault, the e)-.1 F .44(xtensions of)-.15 F/F1 10/Times-Bold@0 SF(.Z)2.94
+E F0(,)A F1(.z)2.94 E F0(and)2.94 E F1(.gz)2.94 E F0 5.44(.I)C(t)-5.44 E
+.937(is possible to deal with an)108 96 R 3.436(yc)-.15 G .936
+(ompression e)-3.436 F .936(xtension, b)-.15 F .936
+(ut this information must be kno)-.2 F .936(wn at compile time.)-.25 F
+.364(Also, by def)108 108 R .364(ault, an)-.1 F 2.864(yc)-.15 G .364
+(at pages produced are compressed using)-2.864 F F1(gzip)2.864 E F0
+5.364(.E)C .364(ach `global' manual page hierarch)-5.364 F(y)-.05 E .364
+(such as)108 120 R/F2 10/Times-Italic@0 SF(/usr/shar)4.014 E(e/man)-.37
+E F0(or)3.104 E F2(/usr/X11R6/man)4.014 E F0 .364(may ha)3.104 F .664
+-.15(ve a)-.2 H .664 -.15(ny d).15 H .363
+(irectory as its cat page hierarch).15 F 4.163 -.65(y. T)-.05 H
+(raditionally).3 E .387
+(the cat pages are stored under the same hierarch)108 132 R 2.887(ya)
+-.05 G 2.887(st)-2.887 G .387(he man pages, b)-2.887 F .388
+(ut for reasons such as those speci\214ed)-.2 F .247(in the)108 144 R F1
+.247(File Hierar)2.747 F(ch)-.18 E 2.747(yS)-.15 G .247(tandard \(FHS\))
+-2.747 F F0 2.747(,i)C 2.746(tm)-2.747 G .246
+(ay be better to store them else)-2.746 F 2.746(where. F)-.25 F .246
+(or details on ho)-.15 F 2.746(wt)-.25 G 2.746(od)-2.746 G(o)-2.746 E
+(this, please read)108 156 Q F1(manpath)2.5 E F0 2.5(\(5\). F)B
+(or details on wh)-.15 E 2.5(yt)-.05 G 2.5(od)-2.5 G 2.5(ot)-2.5 G
+(his, read the standard.)-2.5 E .322(International support is a)108 180
+R -.25(va)-.2 G .322(ilable with this package.).25 F(Nati)5.322 E .622
+-.15(ve l)-.25 H .322(anguage manual pages are accessible \(if a).15 F
+-.25(va)-.2 G(il-).25 E 1.422(able on your system\) via use of)108 192 R
+F2(locale)4.012 E F0 3.922(functions. T)4.102 F 3.922(oa)-.8 G(cti)
+-3.922 E -.25(va)-.25 G 1.421
+(te such support, it is necessary to set either).25 F($)108 204 Q F1
+(LC_MESSA)A(GES)-.55 E F0 3.628(,$)C F1(LANG)-3.628 E F0 1.128
+(or another system dependent en)3.628 F 1.128(vironment v)-.4 F 1.128
+(ariable to your language locale,)-.25 F(usually speci\214ed in the)108
+216 Q F1(POSIX 1003.1)2.5 E F0(based format:)2.5 E(<)108 240 Q F2
+(langua).09 E -.1(ge)-.1 G F0(>[).28 E F1(_)1.666 E F0(<)A F2(territory)
+.13 E F0 1.666(>[).32 G F1(.)A F0(<)A F2 -.15(ch)C(ar).15 E(acter)-.15 E
+(-set)-.2 E F0 1.666(>[).68 G F1(,)A F0(<)A F2(ver).29 E(sion)-.1 E F0
+1.666(>]]]).24 G .24(If the desired page is a)108 264 R -.25(va)-.2 G
+.24(ilable in your).25 F F2(locale)2.74 E F0 2.74(,i).18 G 2.74(tw)-2.74
+G .24(ill be displayed in lieu of the standard \(usually American)-2.74
+F(English\) page.)108 276 Q 1.134(Support for international message cat\
+alogues is also featured in this package and can be acti)108 300 R -.25
+(va)-.25 G 1.134(ted in the).25 F .522(same w)108 312 R(ay)-.1 E 3.022
+(,a)-.65 G -.05(ga)-3.022 G .522(in if a).05 F -.25(va)-.2 G 3.022
+(ilable. If).25 F .522(you \214nd that the manual pages and message cat\
+alogues supplied with this)3.022 F 1.033(package are not a)108 324 R
+-.25(va)-.2 G 1.033(ilable in your nati).25 F 1.333 -.15(ve l)-.25 H
+1.034(anguage and you w).15 F 1.034(ould lik)-.1 F 3.534(et)-.1 G 3.534
+(os)-3.534 G 1.034(upply them, please contact the)-3.534 F
+(maintainer who will be coordinating such acti)108 336 Q(vity)-.25 E(.)
+-.65 E -.15(Fo)108 360 S 3.44(ri).15 G .94(nformation re)-3.44 F -.05
+(ga)-.15 G .94(rding other features and e).05 F .94(xtensions a)-.15 F
+-.25(va)-.2 G .94(ilable with this manual pager).25 F 3.44(,p)-.4 G .94
+(lease read the)-3.44 F(documents supplied with the package.)108 372 Q
+/F3 10.95/Times-Bold@0 SF(DEF)72 388.8 Q -.548(AU)-.986 G -1.007(LT).548
+G(S)1.007 E F1(man)108 400.8 Q F0 .266
+(will search for the desired manual pages within the)2.765 F F2(inde)
+2.776 E(x)-.2 E F0 .266(database caches. If the)3.296 F F1<ad75>2.766 E
+F0 .266(option is gi)2.766 F -.15(ve)-.25 G .266(n, a).15 F 1.908
+(cache consistenc)108 412.8 R 4.408(yc)-.15 G 1.907(heck is performed t\
+o ensure the databases accurately re\215ect the \214lesystem.)-4.408 F
+1.907(If this)6.907 F 1.251(option is al)108 424.8 R -.1(wa)-.1 G 1.251
+(ys gi).1 F -.15(ve)-.25 G 1.252
+(n, it is not generally necessary to run).15 F F1(mandb)3.752 E F0 1.252
+(after the caches are initially created,)3.752 F .284
+(unless a cache becomes corrupt.)108 436.8 R(Ho)5.284 E(we)-.25 E -.15
+(ve)-.25 G 1.084 -.4(r, t).15 H .284(he cache consistenc).4 F 2.784(yc)
+-.15 G .284(heck can be slo)-2.784 F 2.783(wo)-.25 G 2.783(ns)-2.783 G
+.283(ystems with man)-2.783 F(y)-.15 E 1.939
+(manual pages installed, so it is not performed by def)108 448.8 R 1.939
+(ault, and system administrators may wish to run)-.1 F F1(mandb)108
+460.8 Q F0 -2.15 -.25(ev e)4.067 H 1.567(ry week or so to k).25 F 1.566
+(eep the database caches fresh.)-.1 F 3.166 -.8(To f)6.566 H 1.566
+(orestall problems caused by outdated).8 F(caches,)108 472.8 Q F1(man)
+2.5 E F0(will f)2.5 E(all back to \214le globbing if a cache lookup f)
+-.1 E(ails, just as it w)-.1 E(ould if no cache w)-.1 E(as present.)-.1
+E .629(Once a manual page has been located, a check is performed to \
+\214nd out if a relati)108 496.8 R .93 -.15(ve p)-.25 H .63
+(reformatted `cat' \214le).15 F .787(already e)108 508.8 R .787
+(xists and is ne)-.15 F .787(wer than the nrof)-.25 F 3.286<668c>-.25 G
+3.286(le. If)-3.286 F .786
+(it does and is, this preformatted \214le is \(usually\) decom-)3.286 F
+.091(pressed and then displayed, via use of a pager)108 520.8 R 5.091
+(.T)-.55 G .092(he pager can be speci\214ed in a number of w)-5.091 F
+.092(ays, or else will)-.1 F -.1(fa)108 532.8 S .204(ll back to a def).1
+F .204(ault is used \(see option)-.1 F F1<ad50>2.703 E F0 .203
+(for details\).)2.703 F .203
+(If no cat is found or is older than the nrof)5.203 F 2.703<668c>-.25 G
+.203(le, the)-2.703 F(nrof)108 544.8 Q 2.5(fi)-.25 G 2.5<738c>-2.5 G
+(ltered through v)-2.5 E(arious programs and is sho)-.25 E
+(wn immediately)-.25 E(.)-.65 E .07
+(If a cat \214le can be produced \(a relati)108 568.8 R .37 -.15(ve c)
+-.25 H .07(at directory e).15 F .07
+(xists and has appropriate permissions\),)-.15 F F1(man)2.57 E F0 .07
+(will com-)2.57 F(press and store the cat \214le in the background.)108
+580.8 Q .534(The \214lters are deciphered by a number of means.)108
+604.8 R(Firstly)5.534 E 3.033(,t)-.65 G .533(he command line option)
+-3.033 F F1<ad70>3.033 E F0 .533(or the en)3.033 F(vironment)-.4 E -.25
+(va)108 616.8 S .78(riable $).25 F F1(MANR)A(OFFSEQ)-.3 E F0 .78
+(is interrog)3.28 F 3.28(ated. If)-.05 F F1<ad70>3.28 E F0 -.1(wa)3.28 G
+3.28(sn).1 G .78(ot used and the en)-3.28 F .78(vironment v)-.4 F .78
+(ariable w)-.25 F .78(as not set,)-.1 F .032
+(the initial line of the nrof)108 628.8 R 2.532<668c>-.25 G .032
+(le is parsed for a preprocessor string.)-2.532 F 1.631 -.8(To c)5.031 H
+.031(ontain a v).8 F .031(alid preprocessor string, the)-.25 F
+(\214rst line must resemble)108 640.8 Q F1('\\")108 664.8 Q F0(<)2.5 E
+F1(string)A F0(>)A(where)108 688.8 Q F1(string)2.5 E F0(can be an)2.5 E
+2.5(yc)-.15 G(ombination of letters described by option)-2.5 E F1<ad70>
+2.5 E F0(belo)2.5 E -.65(w.)-.25 G(If none of the abo)108 712.8 Q .3
+-.15(ve m)-.15 H(ethods pro).15 E(vide an)-.15 E 2.5<798c>-.15 G
+(lter information, a def)-2.5 E(ault set is used.)-.1 E 188.17
+(2.8.3 2018-04-05)72 768 R(3)205.67 E 0 Cg EP
+%%Page: 4 4
+%%BeginPageSetup
+BP
+%%EndPageSetup
+/F0 10/Times-Roman@0 SF 159.015(MAN\(1\) Manual)72 48 R(pager utils)2.5
+E(MAN\(1\))161.515 E 3.305(Af)108 84 S .805(ormatting pipeline is forme\
+d from the \214lters and the primary formatter \()-3.305 F/F1 10
+/Times-Bold@0 SF(nr)A(off)-.18 E F0 .806(or [)3.306 F F1(tg)A F0(])A F1
+-.18(ro)C(ff).18 E F0(with)3.306 E F1<ad74>3.306 E F0 3.306(\)a)C(nd)
+-3.306 E -.15(exe)108 96 S 3.15(cuted. Alternati).15 F -.15(ve)-.25 G
+(ly).15 E 3.15(,i)-.65 G 3.15(fa)-3.15 G 3.15(ne)-3.15 G -.15(xe)-3.3 G
+.65(cutable program).15 F/F2 10/Times-Italic@0 SF(mandb_nfmt)3.53 E F0
+(\(or)3.83 E F2(mandb_tfmt)3.53 E F0(with)3.83 E F1<ad74>3.15 E F0 3.15
+(\)e)C .65(xists in the man)-3.3 F .662(tree root, it is e)108 108 R
+-.15(xe)-.15 G .662(cuted instead.).15 F .663(It gets passed the manual\
+ source \214le, the preprocessor string, and option-)5.662 F
+(ally the de)108 120 Q(vice speci\214ed with)-.25 E F1<ad54>2.5 E F0(or)
+2.5 E F1<ad45>2.5 E F0(as ar)2.5 E(guments.)-.18 E/F3 10.95/Times-Bold@0
+SF(OPTIONS)72 136.8 Q F0 1.477(Non ar)108 148.8 R 1.476
+(gument options that are duplicated either on the command line, in $)
+-.18 F F1(MANOPT)A F0 3.976(,o)C 3.976(rb)-3.976 G 1.476(oth, are not)
+-3.976 F 2.5(harmful. F)108 160.8 R(or options that require an ar)-.15 E
+(gument, each duplication will o)-.18 E -.15(ve)-.15 G(rride the pre).15
+E(vious ar)-.25 E(gument v)-.18 E(alue.)-.25 E F1(General options)87
+177.6 Q<ad43>108 189.6 Q F2(\214le)4.41 E F0(,).18 E F1
+<adad636f6e8c67ad8c6c653d>2.5 E F2(\214le)1.91 E F0
+(Use this user con\214guration \214le rather than the def)144 201.6 Q
+(ault of)-.1 E F2(~/.manpath)2.5 E F0(.).28 E F1<ad64>108 218.4 Q F0(,)A
+F1<adad646562>2.5 E(ug)-.2 E F0(Print deb)144 230.4 Q
+(ugging information.)-.2 E F1<ad44>108 247.2 Q F0(,)A F1
+(\255\255default)2.5 E F0 .026(This option is normally issued as the v)
+144 259.2 R .026(ery \214rst option and resets)-.15 F F1(man')2.527 E(s)
+-.37 E F0(beha)2.527 E .027(viour to its def)-.2 F 2.527(ault. Its)-.1 F
+.766(use is to reset those options that may ha)144 271.2 R 1.066 -.15
+(ve b)-.2 H .766(een set in $).15 F F1(MANOPT)A F0 5.766(.A)C 1.066 -.15
+(ny o)-5.766 H .766(ptions that follo).15 F(w)-.25 E F1<ad44>3.265 E F0
+(will ha)144 283.2 Q .3 -.15(ve t)-.2 H(heir usual ef).15 E(fect.)-.25 E
+F1<adad776172>108 300 Q(nings)-.15 E F0([=)A F2(warnings)A F0(]).27 E
+1.318(Enable w)144 312 R 1.318(arnings from)-.1 F F2(gr)3.818 E(of)-.45
+E(f)-.18 E F0 6.318(.T)1.96 G 1.318
+(his may be used to perform sanity checks on the source te)-6.318 F
+1.319(xt of)-.15 F 1.368(manual pages.)144 324 R F2(warnings)6.708 E F0
+1.368(is a comma-separated list of w)4.138 F 1.368
+(arning names; if it is not supplied, the)-.1 F(def)144 336 Q
+(ault is "mac".)-.1 E(See the \231W)5 E(arnings\232 node in)-.8 E F1
+(inf)2.5 E 2.5(og)-.25 G -.18(ro)-2.5 G(ff).18 E F0(for a list of a)2.5
+E -.25(va)-.2 G(ilable w).25 E(arning names.)-.1 E F1
+(Main modes of operation)87 352.8 Q<ad66>108 364.8 Q F0(,)A F1
+(\255\255whatis)2.5 E F0(Equi)144 376.8 Q -.25(va)-.25 G 2.803(lent to)
+.25 F F1(whatis)5.303 E F0 7.803(.D)C 2.803
+(isplay a short description from the manual page, if a)-7.803 F -.25(va)
+-.2 G 5.304(ilable. See).25 F F1(whatis)144 388.8 Q F0
+(\(1\) for details.)A F1<ad6b>108 405.6 Q F0(,)A F1<adad617072>2.5 E
+(opos)-.18 E F0(Equi)144 417.6 Q -.25(va)-.25 G .749(lent to).25 F F1
+(apr)3.249 E(opos)-.18 E F0 5.749(.S)C .748
+(earch the short manual page descriptions for k)-5.749 F -.15(ey)-.1 G
+-.1(wo).15 G .748(rds and display an).1 F(y)-.15 E 2.5(matches. See)144
+429.6 R F1(apr)2.5 E(opos)-.18 E F0(\(1\) for details.)A F1<ad4b>108
+446.4 Q F0(,)A F1(\255\255global\255apr)2.5 E(opos)-.18 E F0 .133
+(Search for te)144 458.4 R .133(xt in all manual pages.)-.15 F .133
+(This is a brute-force search, and is lik)5.133 F .133(ely to tak)-.1 F
+2.634(es)-.1 G .134(ome time; if)-2.634 F 1.289(you can, you should spe\
+cify a section to reduce the number of pages that need to be searched.)
+144 470.4 R .794(Search terms may be simple strings \(the def)144 482.4
+R .794(ault\), or re)-.1 F .794(gular e)-.15 F .794(xpressions if the)
+-.15 F F1<adad72>3.294 E(egex)-.18 E F0 .794(option is)3.294 F(used.)144
+494.4 Q .303(Note that this searches the)144 511.2 R F2(sour)3.143 E
+(ces)-.37 E F0 .303(of the manual pages, not the rendered te)3.073 F
+.303(xt, and so may include)-.15 F -.1(fa)144 523.2 S .663(lse positi).1
+F -.15(ve)-.25 G 3.163(sd).15 G .663(ue to things lik)-3.163 F 3.163(ec)
+-.1 G .663(omments in source \214les.)-3.163 F .664
+(Searching the rendered te)5.663 F .664(xt w)-.15 F .664(ould be)-.1 F
+(much slo)144 535.2 Q(wer)-.25 E(.)-.55 E F1<ad6c>108 552 Q F0(,)A F1
+<adad6c6f63616cad8c6c65>2.5 E F0(Acti)144 564 Q -.25(va)-.25 G .162
+(te `local' mode.).25 F -.15(Fo)5.162 G .161(rmat and display local man\
+ual \214les instead of searching through the sys-).15 F(tem')144 576 Q
+2.804(sm)-.55 G .304(anual collection.)-2.804 F .304
+(Each manual page ar)5.304 F .304(gument will be interpreted as an nrof)
+-.18 F 2.804(fs)-.25 G .304(ource \214le in)-2.804 F .588
+(the correct format.)144 588 R .588(No cat \214le is produced.)5.588 F
+.587(If '\255' is listed as one of the ar)5.587 F .587
+(guments, input will be)-.18 F(tak)144 600 Q .1(en from stdin.)-.1 F .1
+(When this option is not used, and man f)5.1 F .1
+(ails to \214nd the page required, before dis-)-.1 F .045
+(playing the error message, it attempts to act as if this option w)144
+612 R .045(as supplied, using the name as a \214le-)-.1 F
+(name and looking for an e)144 624 Q(xact match.)-.15 E F1<ad77>108
+640.8 Q F0(,)A F1(\255\255wher)2.5 E(e)-.18 E F0(,)A F1(\255\255path)2.5
+E F0(,)A F1(\255\255location)2.5 E F0(Don')144 652.8 Q 3.178(ta)-.18 G
+.678(ctually display the manual pages, b)-3.178 F .678
+(ut do print the location\(s\) of the source nrof)-.2 F 3.179<668c>-.25
+G .679(les that)-3.179 F -.1(wo)144 664.8 S(uld be formatted.).1 E F1
+<ad57>108 681.6 Q F0(,)A F1(\255\255wher)2.5 E(e\255cat)-.18 E F0(,)A F1
+(\255\255location\255cat)2.5 E F0(Don')144 693.6 Q 2.982(ta)-.18 G .482
+(ctually display the manual pages, b)-2.982 F .482
+(ut do print the location\(s\) of the cat \214les that w)-.2 F .481
+(ould be)-.1 F 2.5(displayed. If)144 705.6 R
+(\255w and \255W are both speci\214ed, print both separated by a space.)
+2.5 E 188.17(2.8.3 2018-04-05)72 768 R(4)205.67 E 0 Cg EP
+%%Page: 5 5
+%%BeginPageSetup
+BP
+%%EndPageSetup
+/F0 10/Times-Roman@0 SF 159.015(MAN\(1\) Manual)72 48 R(pager utils)2.5
+E(MAN\(1\))161.515 E/F1 10/Times-Bold@0 SF<ad63>108 84 Q F0(,)A F1
+(\255\255catman)2.5 E F0
+(This option is not for general use and should only be used by the)144
+96 Q F1(catman)2.5 E F0(program.)2.5 E F1<ad52>108 112.8 Q/F2 10
+/Times-Italic@0 SF(encoding)2.69 E F0(,)A F1<adad72>2.5 E(ecode)-.18 E
+F0(=)A F2(encoding)A F0 .06
+(Instead of formatting the manual page in the usual w)144 124.8 R(ay)-.1
+E 2.561(,o)-.65 G .061(utput its source con)-2.561 F -.15(ve)-.4 G .061
+(rted to the speci\214ed).15 F F2(encoding)144 136.8 Q F0 6.619(.I).22 G
+4.119(fy)-6.619 G 1.619(ou already kno)-4.119 F 4.119(wt)-.25 G 1.619
+(he encoding of the source \214le, you can also use)-4.119 F F1(mancon)
+4.118 E(v)-.4 E F0(\(1\))A(directly)144 148.8 Q 6.215(.H)-.65 G -.25(ow)
+-6.215 G -2.15 -.25(ev e).25 H 2.015 -.4(r, t).25 H 1.215
+(his option allo).4 F 1.215(ws you to con)-.25 F -.15(ve)-.4 G 1.215
+(rt se).15 F -.15(ve)-.25 G 1.215(ral manual pages to a single encoding)
+.15 F .077(without ha)144 160.8 R .077(ving to e)-.2 F .077
+(xplicitly state the encoding of each, pro)-.15 F .077(vided that the)
+-.15 F 2.576(yw)-.15 G .076(ere already installed in)-2.576 F 2.5(as)144
+172.8 S(tructure similar to a manual page hierarch)-2.5 E -.65(y.)-.05 G
+F1(Finding manual pages)87 189.6 Q<ad4c>108 201.6 Q F2(locale)2.59 E F0
+(,).18 E F1(\255\255locale=)2.5 E F2(locale).09 E F1(man)144 213.6 Q F0
+1.089(will normally determine your current locale by a call to the C fu\
+nction)3.589 F F1(setlocale)3.59 E F0 1.09(\(3\) which)B(interrog)144
+225.6 Q 1.425(ates v)-.05 F 1.425(arious en)-.25 F 1.425(vironment v)-.4
+F 1.425(ariables, possibly including $)-.25 F F1(LC_MESSA)A(GES)-.55 E
+F0 1.425(and $)3.925 F F1(LANG)A F0(.)A 2.222 -.8(To t)144 237.6 T .622
+(emporarily o).8 F -.15(ve)-.15 G .622(rride the determined v).15 F .623
+(alue, use this option to supply a)-.25 F F2(locale)3.213 E F0 .623
+(string directly to)3.303 F F1(man)144 249.6 Q F0 5.86(.N)C .86
+(ote that it will not tak)-5.86 F 3.36(ee)-.1 G -.25(ff)-3.36 G .859
+(ect until the search for pages actually be).25 F 3.359(gins. Output)
+-.15 F .859(such as)3.359 F(the help message will al)144 261.6 Q -.1(wa)
+-.1 G(ys be displayed in the initially determined locale.).1 E F1<ad6d>
+108 278.4 Q F2(system)2.84 E F0 1.666([,)1.666 G 1.666(...],)-1.666 G F1
+(\255\255systems=).834 E F2(system).34 E F0 1.666([,)1.666 G 1.666(...])
+-1.666 G .093(If this system has access to other operating system')144
+290.4 R 2.593(sm)-.55 G .093(anual pages, the)-2.593 F 2.593(yc)-.15 G
+.093(an be accessed using this)-2.593 F 3.484(option. T)144 302.4 R
+3.484(os)-.8 G .984(earch for a manual page from Ne)-3.484 F(wOS')-.25 E
+3.483(sm)-.55 G .983(anual page collection, use the option)-3.483 F F1
+<ad6d>3.483 E(NewOS)144 314.4 Q F0(.)A(The)144 338.4 Q F2(system)4.79 E
+F0 1.951(speci\214ed can be a combination of comma delimited operating \
+system names.)4.77 F -.8(To)6.951 G .653(include a search of the nati)
+144 350.4 R .953 -.15(ve o)-.25 H .653(perating system').15 F 3.153(sm)
+-.55 G .652(anual pages, include the system name)-3.153 F F1(man)3.152 E
+F0(in)3.152 E(the ar)144 362.4 Q(gument string.)-.18 E
+(This option will o)5 E -.15(ve)-.15 G(rride the $).15 E F1(SYSTEM)A F0
+(en)2.5 E(vironment v)-.4 E(ariable.)-.25 E F1<ad4d>108 379.2 Q F2(path)
+3.75 E F0(,).28 E F1(\255\255manpath=)2.5 E F2(path)1.25 E F0 .964
+(Specify an alternate manpath to use.)144 391.2 R .964(By def)5.964 F
+(ault,)-.1 E F1(man)3.464 E F0(uses)3.464 E F1(manpath)3.464 E F0(deri)
+3.465 E -.15(ve)-.25 G 3.465(dc).15 G .965(ode to determine)-3.465 F
+.007(the path to search.)144 403.2 R .007(This option o)5.007 F -.15(ve)
+-.15 G .007(rrides the $).15 F F1(MANP)A -.95(AT)-.74 G(H).95 E F0(en)
+2.507 E .007(vironment v)-.4 F .007(ariable and causes option)-.25 F F1
+<ad6d>144 415.2 Q F0(to be ignored.)2.5 E 2.647(Ap)144 439.2 S .148(ath\
+ speci\214ed as a manpath must be the root of a manual page hierarch)
+-2.647 F 2.648(ys)-.05 G .148(tructured into sections)-2.648 F 1.315
+(as described in the man-db manual \(under "The manual page system"\).)
+144 451.2 R 2.915 -.8(To v)6.315 H(ie).8 E 3.815(wm)-.25 G 1.315
+(anual pages)-3.815 F(outside such hierarchies, see the)144 463.2 Q F1
+<ad6c>2.5 E F0(option.)2.5 E F1<ad53>108 480 Q F2(list)2.59 E F0(,).68 E
+F1<ad73>2.5 E F2(list)2.59 E F0(,).68 E F1(\255\255sections=)2.5 E F2
+(list).09 E F0 .349(List is a colon- or comma-separated list of `order \
+speci\214c' manual sections to search.)144 492 R .349(This option)5.349
+F -.15(ove)144 504 S .616(rrides the $).15 F F1(MANSECT)A F0(en)3.116 E
+.616(vironment v)-.4 F 3.116(ariable. \(The)-.25 F F1<ad73>3.116 E F0
+.616(spelling is for compatibility with Sys-)3.116 F(tem V)144 516 Q
+(.\))-1.29 E F1<ad65>108 532.8 Q F2(sub-e)2.84 E(xtension)-.2 E F0(,).24
+E F1(\255\255extension=)2.5 E F2(sub-e).34 E(xtension)-.2 E F0 .517
+(Some systems incorporate lar)144 544.8 R .517
+(ge packages of manual pages, such as those that accompan)-.18 F 3.018
+(yt)-.15 G(he)-3.018 E F1(Tcl)3.018 E F0 .636
+(package, into the main manual page hierarch)144 556.8 R 4.436 -.65
+(y. T)-.05 H 3.136(og)-.15 G .636(et around the problem of ha)-3.136 F
+.636(ving tw)-.2 F 3.136(om)-.1 G(anual)-3.136 E .167
+(pages with the same name such as)144 568.8 R F1(exit)2.667 E F0 .167
+(\(3\), the)B F1(Tcl)2.667 E F0 .167
+(pages were usually all assigned to section)2.667 F F1(l)2.668 E F0
+5.168(.A)C(s)-5.168 E .024(this is unfortunate, it is no)144 580.8 R
+2.524(wp)-.25 G .024(ossible to put the pages in the correct section, a\
+nd to assign a speci\214c)-2.524 F(`e)144 592.8 Q .7
+(xtension' to them, in this case,)-.15 F F1(exit)3.201 E F0 3.201
+(\(3tcl\). Under)B .701(normal operation,)3.201 F F1(man)3.201 E F0 .701
+(will display)3.201 F F1(exit)3.201 E F0 .701(\(3\) in)B .32
+(preference to)144 604.8 R F1(exit)2.82 E F0 2.82(\(3tcl\). T)B 2.82(on)
+-.8 G -.15(eg)-2.82 G .32(otiate this situation and to a).15 F -.2(vo)
+-.2 G .32(id ha).2 F .32(ving to kno)-.2 F 2.82(ww)-.25 G .32
+(hich section the)-2.82 F .203(page you require resides in, it is no)144
+616.8 R 2.703(wp)-.25 G .203(ossible to gi)-2.703 F -.15(ve)-.25 G F1
+(man)2.853 E F0(a)2.703 E F2(sub-e)3.043 E(xtension)-.2 E F0 .204
+(string indicating which)2.943 F .812(package the page must belong to.)
+144 628.8 R .812(Using the abo)5.812 F 1.112 -.15(ve ex)-.15 H .812
+(ample, supplying the option).15 F F1(\255e tcl)3.312 E F0(to)3.312 E F1
+(man)3.312 E F0(will restrict the search to pages ha)144 640.8 Q
+(ving an e)-.2 E(xtension of)-.15 E F1(*tcl)2.5 E F0(.)A F1<ad69>108
+657.6 Q F0(,)A F1(\255\255ignor)2.5 E(e\255case)-.18 E F0
+(Ignore case when searching for manual pages.)144 669.6 Q
+(This is the def)5 E(ault.)-.1 E F1<ad49>108 686.4 Q F0(,)A F1
+(\255\255match\255case)2.5 E F0(Search for manual pages case-sensiti)144
+698.4 Q -.15(ve)-.25 G(ly).15 E(.)-.65 E 188.17(2.8.3 2018-04-05)72 768
+R(5)205.67 E 0 Cg EP
+%%Page: 6 6
+%%BeginPageSetup
+BP
+%%EndPageSetup
+/F0 10/Times-Roman@0 SF 159.015(MAN\(1\) Manual)72 48 R(pager utils)2.5
+E(MAN\(1\))161.515 E/F1 10/Times-Bold@0 SF<adad72>108 84 Q(egex)-.18 E
+F0(Sho)144 96 Q 2.873(wa)-.25 G .373(ll pages with an)-2.873 F 2.874(yp)
+-.15 G .374
+(art of either their names or their descriptions matching each)-2.874 F
+/F2 10/Times-Italic@0 SF(pa)4.124 E -.1(ge)-.1 G F0(ar)3.154 E(gu-)-.18
+E .051(ment as a re)144 108 R .051(gular e)-.15 F .051
+(xpression, as with)-.15 F F1(apr)2.551 E(opos)-.18 E F0 2.551
+(\(1\). Since)B .05(there is usually no reasonable w)2.551 F .05
+(ay to pick)-.1 F 2.5(a")144 120 S(best" page when searching for a re)
+-2.5 E(gular e)-.15 E(xpression, this option implies)-.15 E F1<ad61>2.5
+E F0(.)A F1(\255\255wildcard)108 136.8 Q F0(Sho)144 148.8 Q 2.873(wa)
+-.25 G .373(ll pages with an)-2.873 F 2.874(yp)-.15 G .374
+(art of either their names or their descriptions matching each)-2.874 F
+F2(pa)4.124 E -.1(ge)-.1 G F0(ar)3.154 E(gu-)-.18 E 2.26
+(ment using shell-style wildcards, as with)144 160.8 R F1(apr)4.76 E
+(opos)-.18 E F0(\(1\))A F1(\255\255wildcard)4.76 E F0 7.26(.T)C(he)-7.26
+E F2(pa)6.01 E -.1(ge)-.1 G F0(ar)5.04 E 2.26(gument must)-.18 F .226
+(match the entire name or description, or match on w)144 172.8 R .226
+(ord boundaries in the description.)-.1 F .226(Since there)5.226 F 1.56
+(is usually no reasonable w)144 184.8 R 1.559
+(ay to pick a "best" page when searching for a wildcard, this option)-.1
+F(implies)144 196.8 Q F1<ad61>2.5 E F0(.)A F1(\255\255names\255only)108
+213.6 Q F0 .969(If the)144 225.6 R F1<adad72>3.469 E(egex)-.18 E F0(or)
+3.469 E F1(\255\255wildcard)3.469 E F0 .969
+(option is used, match only page names, not page descriptions, as)3.469
+F(with)144 237.6 Q F1(whatis)2.5 E F0 2.5(\(1\). Otherwise,)B(no ef)2.5
+E(fect.)-.25 E F1<ad61>108 254.4 Q F0(,)A F1<adad616c6c>2.5 E F0 1.862
+(By def)144 266.4 R(ault,)-.1 E F1(man)4.362 E F0 1.862(will e)4.362 F
+1.861(xit after displaying the most suitable manual page it \214nds.)
+-.15 F 1.861(Using this)6.861 F(option forces)144 278.4 Q F1(man)2.5 E
+F0(to display all the manual pages with names that match the search cri\
+teria.)2.5 E F1<ad75>108 295.2 Q F0(,)A F1(\255\255update)2.5 E F0 .978
+(This option causes)144 307.2 R F1(man)3.478 E F0 .979
+(to perform an `inode le)3.478 F -.15(ve)-.25 G .979(l' consistenc).15 F
+3.479(yc)-.15 G .979(heck on its database caches to)-3.479 F .126
+(ensure that the)144 319.2 R 2.626(ya)-.15 G .125
+(re an accurate representation of the \214lesystem.)-2.626 F .125
+(It will only ha)5.125 F .425 -.15(ve a u)-.2 H .125(seful ef).15 F .125
+(fect if)-.25 F F1(man)144 331.2 Q F0
+(is installed with the setuid bit set.)2.5 E F1(\255\255no\255subpages)
+108 348 Q F0 .94(By def)144 360 R(ault,)-.1 E F1(man)3.44 E F0 .941
+(will try to interpret pairs of manual page names gi)3.44 F -.15(ve)-.25
+G 3.441(no).15 G 3.441(nt)-3.441 G .941(he command line as)-3.441 F
+(equi)144 372 Q -.25(va)-.25 G .312
+(lent to a single manual page name containing a h).25 F .311
+(yphen or an underscore.)-.05 F .311(This supports the)5.311 F .068(com\
+mon pattern of programs that implement a number of subcommands, allo)144
+384 R .068(wing them to pro)-.25 F(vide)-.15 E .878
+(manual pages for each that can be accessed using similar syntax as w)
+144 396 R .878(ould be used to in)-.1 F -.2(vo)-.4 G 1.078 -.1(ke t).2 H
+(he).1 E(subcommands themselv)144 408 Q 2.5(es. F)-.15 F(or e)-.15 E
+(xample:)-.15 E 2.5($m)149 432 S(an \255a)-2.5 E 2.5(wg)-.15 G(it dif)
+-2.5 E(f)-.25 E(/usr/share/man/man1/git\255dif)149 444 Q(f.1.gz)-.25 E
+1.6 -.8(To d)144 468 T(isable this beha).8 E(viour)-.2 E 2.5(,u)-.4 G
+(se the)-2.5 E F1(\255\255no\255subpages)2.5 E F0(option.)2.5 E 2.5($m)
+149 492 S(an \255a)-2.5 E 2.5<77ad>-.15 G(\255no\255subpages git dif)
+-2.5 E(f)-.25 E(/usr/share/man/man1/git.1.gz)149 504 Q
+(/usr/share/man/man3/Git.3pm.gz)149 516 Q(/usr/share/man/man1/dif)149
+528 Q(f.1.gz)-.25 E F1(Contr)87 544.8 Q(olling f)-.18 E(ormatted output)
+-.25 E<ad50>108 556.8 Q F2(pa)3.75 E -.1(ge)-.1 G(r).1 E F0(,).73 E F1
+(\255\255pager=)2.5 E F2(pa)1.25 E -.1(ge)-.1 G(r).1 E F0 .1
+(Specify which output pager to use.)144 568.8 R .1(By def)5.1 F(ault,)
+-.1 E F1(man)2.6 E F0(uses)2.6 E F1(pager)2.6 E F0 2.6(,f)C .1
+(alling back to)-2.7 F F1(cat)2.6 E F0(if)2.6 E F1(pager)2.6 E F0 .1
+(is not)2.6 F .277(found or is not e)144 580.8 R -.15(xe)-.15 G 2.777
+(cutable. This).15 F .277(option o)2.777 F -.15(ve)-.15 G .277
+(rrides the $).15 F F1(MANP)A -.55(AG)-.74 G(ER).55 E F0(en)2.776 E .276
+(vironment v)-.4 F .276(ariable, which)-.25 F(in turn o)144 592.8 Q -.15
+(ve)-.15 G(rrides the $).15 E F1 -1.57 -.74(PA G)D(ER).74 E F0(en)2.5 E
+(vironment v)-.4 E 2.5(ariable. It)-.25 F
+(is not used in conjunction with)2.5 E F1<ad66>2.5 E F0(or)2.5 E F1
+<ad6b>2.5 E F0(.)A 1.395(The v)144 616.8 R 1.395
+(alue may be a simple command name or a command with ar)-.25 F 1.395
+(guments, and may use shell)-.18 F .867
+(quoting \(backslashes, single quotes, or double quotes\).)144 628.8 R
+.867(It may not use pipes to connect multiple)5.867 F .651
+(commands; if you need that, use a wrapper script, which may tak)144
+640.8 R 3.151(et)-.1 G .651(he \214le to display either as an)-3.151 F
+(ar)144 652.8 Q(gument or on standard input.)-.18 E F1<ad72>108 669.6 Q
+F2(pr)3.75 E(ompt)-.45 E F0(,).68 E F1<adad7072>2.5 E(ompt=)-.18 E F2
+(pr)1.25 E(ompt)-.45 E F0 .372(If a recent v)144 681.6 R .372(ersion of)
+-.15 F F1(less)2.872 E F0 .372(is used as the pager)2.872 F(,)-.4 E F1
+(man)2.871 E F0 .371(will attempt to set its prompt and some sensi-)
+2.871 F(ble options.)144 693.6 Q(The def)5 E(ault prompt looks lik)-.1 E
+(e)-.1 E F1(Manual page)146.5 717.6 Q F2(name)2.5 E F1(\().18 E F2(sec)
+.34 E F1 2.5(\)l).31 G(ine)-2.5 E F2(x)2.5 E F0 188.17(2.8.3 2018-04-05)
+72 768 R(6)205.67 E 0 Cg EP
+%%Page: 7 7
+%%BeginPageSetup
+BP
+%%EndPageSetup
+/F0 10/Times-Roman@0 SF 159.015(MAN\(1\) Manual)72 48 R(pager utils)2.5
+E(MAN\(1\))161.515 E(where)144 84 Q/F1 10/Times-Italic@0 SF(name)3.382 E
+F0 .523(denotes the manual page name,)3.203 F F1(sec)3.363 E F0 .523
+(denotes the section it w)3.333 F .523(as found under and)-.1 F F1(x)
+3.023 E F0(the)3.023 E(current line number)144 96 Q 5(.T)-.55 G
+(his is achie)-5 E -.15(ve)-.25 G 2.5(db).15 G 2.5(yu)-2.5 G(sing the $)
+-2.5 E/F2 10/Times-Bold@0 SF(LESS)A F0(en)2.5 E(vironment v)-.4 E
+(ariable.)-.25 E(Supplying)144 120 Q F2<ad72>2.985 E F0 .485
+(with a string will o)2.985 F -.15(ve)-.15 G .485(rride this def).15 F
+2.985(ault. The)-.1 F .484(string may contain the te)2.985 F(xt)-.15 E
+F2($MAN_PN)2.984 E F0 .666(which will be e)144 132 R .667(xpanded to th\
+e name of the current manual page and its section name surrounded)-.15 F
+(by `\(' and `\)'.)144 144 Q(The string used to produce the def)5 E
+(ault could be e)-.1 E(xpressed as)-.15 E F2 2.5(\\M)144 168 S
+(anual\\ page\\ \\$MAN_PN\\ ?ltline\\ %lt?L/%L.:)-2.5 E
+(byte\\ %bB?s/%s..?\\ \(END\):?pB\\ %pB\\\\%..)144 180 Q(\(pr)144 192 Q
+(ess h f)-.18 E(or help or q to quit\))-.25 E F0 .825(It is brok)144 216
+R .825(en into three lines here for the sak)-.1 F 3.324(eo)-.1 G 3.324
+(fr)-3.324 G .824(eadability only)-3.324 F 5.824(.F)-.65 G .824
+(or its meaning see the)-5.974 F F2(less)3.324 E F0(\(1\))A .028
+(manual page.)144 228 R .028(The prompt string is \214rst e)5.028 F -.25
+(va)-.25 G .029(luated by the shell.).25 F .029
+(All double quotes, back-quotes and)5.029 F .349
+(backslashes in the prompt must be escaped by a preceding backslash.)144
+240 R .348(The prompt string may end)5.348 F .471
+(in an escaped $ which may be follo)144 252 R .471
+(wed by further options for less.)-.25 F .471(By def)5.471 F(ault)-.1 E
+F2(man)2.971 E F0 .472(sets the)2.971 F F2(\255ix8)2.972 E F0(options.)
+144 264 Q 1.932(The $)144 288 R F2(MANLESS)A F0(en)4.432 E 1.932
+(vironment v)-.4 F 1.932(ariable described belo)-.25 F 4.432(wm)-.25 G
+1.931(ay be used to set a def)-4.432 F 1.931(ault prompt)-.1 F
+(string if none is supplied on the command line.)144 300 Q F2<ad37>108
+316.8 Q F0(,)A F2(\255\255ascii)2.5 E F0 .346(When vie)144 328.8 R .346
+(wing a pure)-.25 F F1(ascii)2.846 E F0 .346
+(\(7\) manual page on a 7 bit terminal or terminal emulator).36 F 2.847
+(,s)-.4 G .347(ome charac-)-2.847 F .502
+(ters may not display correctly when using the)144 340.8 R F1(latin1)
+3.002 E F0 .502(\(7\) de)B .502(vice description with)-.25 F F2 .502
+(GNU nr)3.002 F(off)-.18 E F0 5.502(.T)C(his)-5.502 E .64(option allo)
+144 352.8 R .64(ws pure)-.25 F F1(ascii)3.47 E F0 .64
+(manual pages to be displayed in)3.5 F F1(ascii)3.47 E F0 .64(with the)
+3.5 F F1(latin1)3.23 E F0(de)3.14 E 3.14(vice. It)-.25 F .64(will not)
+3.14 F .998(translate an)144 364.8 R(y)-.15 E F1(latin1)3.588 E F0(te)
+3.498 E 3.498(xt. The)-.15 F(follo)3.498 E .998(wing table sho)-.25 F
+.998(ws the translations performed: some parts of it)-.25 F
+(may only be displayed properly when using)144 376.8 Q F2(GNU nr)2.5 E
+(off)-.18 E F0 -.55('s)C F1(latin1)3.05 E F0(\(7\) de)A(vice.)-.25 E
+47.73(Description Octal)144 405.6 R 12.5(latin1 ascii)15 F .4 LW 333.66
+410.1 144 410.1 DL 25.555(255 -)244.22 419.6 R(-)32.225 E
+(continuation h)144 419.6 Q(yphen)-.05 E 25.47(267 \203)244.22 431.6 R
+(o)31.305 E -.2(bu)144 431.6 S(llet \(middle dot\)).2 E 25.555(264 \264)
+244.22 443.6 R(')32.225 E(acute accent)144 443.6 Q(327)244.22 455.6 Q/F3
+10/Symbol SF<b4>26.975 E F0(x)30.31 E(multiplication sign)144 455.6 Q
+.598(If the)144 479.6 R F1(latin1)3.188 E F0 .598
+(column displays correctly)3.098 F 3.099(,y)-.65 G .599
+(our terminal may be set up for)-3.099 F F1(latin1)3.189 E F0 .599
+(characters and this)3.099 F 1.117(option is not necessary)144 491.6 R
+6.117(.I)-.65 G 3.617(ft)-6.117 G(he)-3.617 E F1(latin1)3.707 E F0(and)
+3.617 E F1(ascii)3.947 E F0 1.117
+(columns are identical, you are reading this page)3.977 F .243
+(using this option or)144 503.6 R F2(man)2.743 E F0 .243
+(did not format this page using the)2.743 F F1(latin1)2.833 E F0(de)
+2.743 E .243(vice description.)-.25 F .243(If the)5.243 F F1(latin1)
+2.833 E F0(column is missing or corrupt, you may need to vie)144 515.6 Q
+2.5(wm)-.25 G(anual pages with this option.)-2.5 E .637
+(This option is ignored when using options)144 539.6 R F2<ad74>3.137 E
+F0(,)A F2<ad48>3.137 E F0(,)A F2<ad54>3.137 E F0 3.137(,o)C(r)-3.137 E
+F2<ad5a>3.137 E F0 .636(and may be useless for)3.137 F F2(nr)3.136 E
+(off)-.18 E F0(other)3.136 E(than)144 551.6 Q F2(GNU')2.5 E(s)-.37 E F0
+(.)A F2<ad45>108 568.4 Q F1(encoding)2.69 E F0(,)A F2(\255\255encoding)
+2.5 E F0(=)A F1(encoding)A F0 2.049
+(Generate output for a character encoding other than the def)144 580.4 R
+4.549(ault. F)-.1 F 2.05(or backw)-.15 F 2.05(ard compatibility)-.1 F(,)
+-.65 E F1(encoding)144.19 592.4 Q F0 .155(may be an)2.875 F F2(nr)2.655
+E(off)-.18 E F0(de)2.655 E .155(vice such as)-.25 F F2(ascii)2.655 E F0
+(,)A F2(latin1)2.654 E F0 2.654(,o)C(r)-2.654 E F2(utf8)2.654 E F0 .154
+(as well as a true character encoding)2.654 F(such as)144 604.4 Q F2
+(UTF\2558)2.5 E F0(.)A F2<adad6e6fad68>108 621.2 Q(yphenation)-.15 E F0
+(,)A F2<adad6e68>2.5 E F0(Normally)144 633.2 Q(,)-.65 E F2(nr)2.82 E
+(off)-.18 E F0 .32(will automatically h)2.82 F .32(yphenate te)-.05 F
+.32(xt at line breaks e)-.15 F -.15(ve)-.25 G 2.82(ni).15 G 2.82(nw)
+-2.82 G .32(ords that do not contain)-2.92 F -.05(hy)144 645.2 S 1.285
+(phens, if it is necessary to do so to lay out w).05 F 1.284
+(ords on a line without e)-.1 F(xcessi)-.15 E 1.584 -.15(ve s)-.25 H
+3.784(pacing. This).15 F .79(option disables automatic h)144 657.2 R
+.791(yphenation, so w)-.05 F .791(ords will only be h)-.1 F .791
+(yphenated if the)-.05 F 3.291(ya)-.15 G .791(lready contain)-3.291 F
+-.05(hy)144 669.2 S(phens.).05 E .291
+(If you are writing a manual page and simply w)144 693.2 R .291
+(ant to pre)-.1 F -.15(ve)-.25 G(nt).15 E F2(nr)2.791 E(off)-.18 E F0
+.291(from h)2.791 F .291(yphenating a w)-.05 F .291(ord at an)-.1 F
+2.394(inappropriate point, do not use this option, b)144 705.2 R 2.394
+(ut consult the)-.2 F F2(nr)4.894 E(off)-.18 E F0 2.394
+(documentation instead; for)4.894 F .233
+(instance, you can put "\\%" inside a w)144 717.2 R .233
+(ord to indicate that it may be h)-.1 F .232
+(yphenated at that point, or put)-.05 F("\\%" at the start of a w)144
+729.2 Q(ord to pre)-.1 E -.15(ve)-.25 G(nt it from being h).15 E
+(yphenated.)-.05 E 188.17(2.8.3 2018-04-05)72 768 R(7)205.67 E 0 Cg EP
+%%Page: 8 8
+%%BeginPageSetup
+BP
+%%EndPageSetup
+/F0 10/Times-Roman@0 SF 159.015(MAN\(1\) Manual)72 48 R(pager utils)2.5
+E(MAN\(1\))161.515 E/F1 10/Times-Bold@0 SF
+(\255\255no\255justi\214cation)108 84 Q F0(,)A F1<adad6e6a>2.5 E F0
+(Normally)144 96 Q(,)-.65 E F1(nr)2.836 E(off)-.18 E F0 .337
+(will automatically justify te)2.837 F .337(xt to both mar)-.15 F 2.837
+(gins. This)-.18 F .337(option disables full justi\214ca-)2.837 F
+(tion, lea)144 108 Q(ving justi\214ed only to the left mar)-.2 E
+(gin, sometimes called "ragged-right" te)-.18 E(xt.)-.15 E .943
+(If you are writing a manual page and simply w)144 132 R .943
+(ant to pre)-.1 F -.15(ve)-.25 G(nt).15 E F1(nr)3.443 E(off)-.18 E F0
+.943(from justifying certain para-)3.443 F .612
+(graphs, do not use this option, b)144 144 R .613(ut consult the)-.2 F
+F1(nr)3.113 E(off)-.18 E F0 .613
+(documentation instead; for instance, you can)3.113 F(use the ".na", ".\
+nf", ".\214", and ".ad" requests to temporarily disable adjusting and \
+\214lling.)144 156 Q F1<ad70>108 172.8 Q/F2 10/Times-Italic@0 SF(string)
+2.84 E F0(,).22 E F1<adad7072>2.5 E(epr)-.18 E(ocessor=)-.18 E F2
+(string).34 E F0 .355
+(Specify the sequence of preprocessors to run before)144 184.8 R F1(nr)
+2.854 E(off)-.18 E F0(or)2.854 E F1(tr)2.854 E(off)-.18 E F0(/)A F1(gr)A
+(off)-.18 E F0 5.354(.N)C .354(ot all installations will)-5.354 F(ha)144
+196.8 Q .701 -.15(ve a f)-.2 H .402(ull set of preprocessors.).15 F .402
+(Some of the preprocessors and the letters used to designate them)5.402
+F(are:)144 208.8 Q F1(eqn)3.638 E F0(\()3.638 E F1(e)A F0(\),)A F1(grap)
+3.638 E F0(\()3.638 E F1(g)A F0(\),)A F1(pic)3.638 E F0(\()3.638 E F1(p)
+A F0(\),)A F1(tbl)3.638 E F0(\()3.638 E F1(t)A F0(\),)A F1(vgrind)3.638
+E F0(\()3.638 E F1(v)A F0(\),)A F1 -.18(re)3.638 G(fer).18 E F0(\()3.637
+E F1(r)A F0 3.637(\). This)B 1.137(option o)3.637 F -.15(ve)-.15 G 1.137
+(rrides the $).15 F F1(MAN-)A -.3(RO)144 220.8 S(FFSEQ).3 E F0(en)2.5 E
+(vironment v)-.4 E(ariable.)-.25 E F1(zsoelim)5 E F0(is al)2.5 E -.1(wa)
+-.1 G(ys run as the v).1 E(ery \214rst preprocessor)-.15 E(.)-.55 E F1
+<ad74>108 237.6 Q F0(,)A F1<adad7472>2.5 E(off)-.18 E F0(Use)144 249.6 Q
+F2(gr)3.081 E(of)-.45 E 2.661(f-)-.18 G(mandoc)-2.661 E F0 .162
+(to format the manual page to stdout.)2.972 F .162
+(This option is not required in conjunction)5.162 F(with)144 261.6 Q F1
+<ad48>2.5 E F0(,)A F1<ad54>2.5 E F0 2.5(,o)C(r)-2.5 E F1<ad5a>2.5 E F0
+(.)A F1<ad54>108 278.4 Q F0([)A F2(de)A(vice)-.15 E F0(],).18 E F1
+<adad7472>2.5 E(off\255de)-.18 E(vice)-.15 E F0([=)A F2(de)A(vice)-.15 E
+F0(]).18 E .987(This option is used to change)144 290.4 R F1(gr)3.487 E
+(off)-.18 E F0 .987(\(or possibly)3.487 F F1(tr)3.486 E -1.95(off ')-.18
+F(s)-.37 E F0 3.486(\)o)C .986(utput to be suitable for a de)-3.486 F
+.986(vice other)-.25 F .237(than the def)144 302.4 R 2.738(ault. It)-.1
+F(implies)2.738 E F1<ad74>2.738 E F0 5.238(.E)C .238(xamples \(pro)
+-5.238 F .238(vided with Grof)-.15 F .238(f-1.17\) include)-.25 F F1
+(dvi)2.738 E F0(,)A F1(latin1)2.738 E F0(,)A F1(ps)2.738 E F0(,)A F1
+(utf8)2.738 E F0(,)A F1(X75)144 314.4 Q F0(and)2.5 E F1(X100)2.5 E F0(.)
+A F1<ad48>108 331.2 Q F0([)A F2(br)A(owser)-.45 E F0(],).73 E F1
+(\255\255html)2.5 E F0([=)A F2(br)A(owser)-.45 E F0(]).73 E 1.829
+(This option will cause)144 343.2 R F1(gr)4.329 E(off)-.18 E F0 1.829
+(to produce HTML output, and will display that output in a web)4.329 F
+(bro)144 355.2 Q(wser)-.25 E 6.246(.T)-.55 G 1.246(he choice of bro)
+-6.246 F 1.246(wser is determined by the optional)-.25 F F2(br)4.016 E
+(owser)-.45 E F0(ar)4.476 E 1.246(gument if one is pro-)-.18 F 1.534
+(vided, by the $)144 367.2 R F1(BR)A -.5(OW)-.3 G(SER).5 E F0(en)4.034 E
+1.534(vironment v)-.4 F 1.534(ariable, or by a compile-time def)-.25 F
+1.533(ault if that is unset)-.1 F(\(usually)144 379.2 Q F1(lynx)2.5 E F0
+2.5(\). This)B(option implies)2.5 E F1<ad74>2.5 E F0 2.5(,a)C
+(nd will only w)-2.5 E(ork with)-.1 E F1(GNU tr)2.5 E(off)-.18 E F0(.)A
+F1<ad58>108 396 Q F0([)A F2(dpi)A F0(],).36 E F1(\255\255gxditview)2.5 E
+F0([=)A F2(dpi)A F0(]).36 E .301(This option displays the output of)144
+408 R F1(gr)2.801 E(off)-.18 E F0 .301(in a graphical windo)2.801 F
+2.802(wu)-.25 G .302(sing the)-2.802 F F1(gxditview)2.802 E F0 2.802
+(program. The)2.802 F F2(dpi)144.35 420 Q F0 1.489
+(\(dots per inch\) may be 75, 75-12, 100, or 100-12, def)4.349 F 1.489
+(aulting to 75; the -12 v)-.1 F 1.488(ariants use a)-.25 F 1.846
+(12-point base font.)144 432 R 1.846(This option implies)6.846 F F1
+<ad54>4.346 E F0 1.847(with the X75, X75-12, X100, or X100-12 de)4.346 F
+(vice)-.25 E(respecti)144 444 Q -.15(ve)-.25 G(ly).15 E(.)-.65 E F1
+<ad5a>108 460.8 Q F0(,)A F1(\255\255ditr)2.5 E(off)-.18 E(gr)144 472.8 Q
+(off)-.18 E F0 .708(will run)3.208 F F1(tr)3.208 E(off)-.18 E F0 .707(a\
+nd then use an appropriate post-processor to produce output suitable fo\
+r the)3.208 F .04(chosen de)144 484.8 R 2.54(vice. If)-.25 F F2(gr)2.96
+E(of)-.45 E 2.54(f-)-.18 G(mandoc)-2.54 E F0(is)2.85 E F1(gr)2.54 E(off)
+-.18 E F0 2.54(,t)C .041(his option is passed to)-2.54 F F1(gr)2.541 E
+(off)-.18 E F0 .041(and will suppress the use of)2.541 F 2.5(ap)144
+496.8 S(ost-processor)-2.5 E 5(.I)-.55 G 2.5(ti)-5 G(mplies)-2.5 E F1
+<ad74>2.5 E F0(.)A F1(Getting help)87 513.6 Q<ad3f>108 525.6 Q F0(,)A F1
+(\255\255help)2.5 E F0(Print a help message and e)144 537.6 Q(xit.)-.15
+E F1(\255\255usage)108 554.4 Q F0(Print a short usage message and e)144
+566.4 Q(xit.)-.15 E F1<ad56>108 583.2 Q F0(,)A F1<adad76>2.5 E(ersion)
+-.1 E F0(Display v)144 595.2 Q(ersion information.)-.15 E/F3 10.95
+/Times-Bold@0 SF(EXIT ST)72 612 Q -1.04(AT)-.986 G(US)1.04 E F1(0)108
+624 Q F0(Successful program e)144 624 Q -.15(xe)-.15 G(cution.).15 E F1
+(1)108 640.8 Q F0(Usage, syntax or con\214guration \214le error)144
+640.8 Q(.)-.55 E F1(2)108 657.6 Q F0(Operational error)144 657.6 Q(.)
+-.55 E F1(3)108 674.4 Q F0 2.5(Ac)144 674.4 S
+(hild process returned a non-zero e)-2.5 E(xit status.)-.15 E F1(16)108
+691.2 Q F0(At least one of the pages/\214les/k)144 691.2 Q -.15(ey)-.1 G
+-.1(wo).15 G(rds didn').1 E 2.5(te)-.18 G(xist or w)-2.65 E(asn')-.1 E
+2.5(tm)-.18 G(atched.)-2.5 E 188.17(2.8.3 2018-04-05)72 768 R(8)205.67 E
+0 Cg EP
+%%Page: 9 9
+%%BeginPageSetup
+BP
+%%EndPageSetup
+/F0 10/Times-Roman@0 SF 159.015(MAN\(1\) Manual)72 48 R(pager utils)2.5
+E(MAN\(1\))161.515 E/F1 10.95/Times-Bold@0 SF(ENVIR)72 84 Q(ONMENT)-.329
+E/F2 10/Times-Bold@0 SF(MANP)108 96 Q -.95(AT)-.74 G(H).95 E F0(If $)144
+108 Q F2(MANP)A -.95(AT)-.74 G(H).95 E F0(is set, its v)2.5 E
+(alue is used as the path to search for manual pages.)-.25 E F2(MANR)108
+124.8 Q(OFFOPT)-.3 E F0 1.128(The contents of $)144 136.8 R F2(MANR)A
+(OFFOPT)-.3 E F0 1.128(are added to the command line e)3.628 F -.15(ve)
+-.25 G 1.128(ry time).15 F F2(man)3.628 E F0(in)3.627 E -.2(vo)-.4 G -.1
+(ke).2 G 3.627(st).1 G(he)-3.627 E(formatter \()144 148.8 Q F2(nr)A(off)
+-.18 E F0(,)A F2(tr)2.5 E(off)-.18 E F0 2.5(,o)C(r)-2.5 E F2(gr)2.5 E
+(off)-.18 E F0(\).)A F2(MANR)108 165.6 Q(OFFSEQ)-.3 E F0 1.228(If $)144
+177.6 R F2(MANR)A(OFFSEQ)-.3 E F0 1.228(is set, its v)3.728 F 1.229
+(alue is used to determine the set of preprocessors to pass each)-.25 F
+(manual page through.)144 189.6 Q(The def)5 E
+(ault preprocessor list is system dependent.)-.1 E F2(MANSECT)108 206.4
+Q F0 1.219(If $)144 218.4 R F2(MANSECT)A F0 1.219(is set, its v)3.719 F
+1.218
+(alue is a colon-delimited list of sections and it is used to determine)
+-.25 F .631(which manual sections to search and in what order)144 230.4
+R 5.631(.T)-.55 G .631(he def)-5.631 F .631
+(ault is "1 n l 8 3 2 3posix 3pm 3perl)-.1 F(3am 5 4 9 6 7", unless o)
+144 242.4 Q -.15(ve)-.15 G(rridden by the).15 E F2(SECTION)2.5 E F0
+(directi)2.5 E .3 -.15(ve i)-.25 H(n).15 E/F3 10/Times-Italic@0 SF
+(/etc/manpath.con\214g)2.5 E F0(.).22 E F2(MANP)108 259.2 Q -.55(AG)-.74
+G(ER).55 E F0(,)A F2 -1.57 -.74(PA G)2.5 H(ER).74 E F0 .902(If $)144
+271.2 R F2(MANP)A -.55(AG)-.74 G(ER).55 E F0 .902(or $)3.402 F F2 -1.57
+-.74(PA G)D(ER).74 E F0 .902(is set \($)3.402 F F2(MANP)A -.55(AG)-.74 G
+(ER).55 E F0 .901(is used in preference\), its v)3.401 F .901
+(alue is used as)-.25 F .352
+(the name of the program used to display the manual page.)144 283.2 R
+.352(By def)5.352 F(ault,)-.1 E F2(pager)2.852 E F0 .352(is used, f)
+2.852 F .352(alling back)-.1 F(to)144 295.2 Q F2(cat)2.5 E F0(if)2.5 E
+F2(pager)2.5 E F0(is not found or is not e)2.5 E -.15(xe)-.15 G
+(cutable.).15 E 1.395(The v)144 319.2 R 1.395
+(alue may be a simple command name or a command with ar)-.25 F 1.395
+(guments, and may use shell)-.18 F .867
+(quoting \(backslashes, single quotes, or double quotes\).)144 331.2 R
+.867(It may not use pipes to connect multiple)5.867 F .651
+(commands; if you need that, use a wrapper script, which may tak)144
+343.2 R 3.151(et)-.1 G .651(he \214le to display either as an)-3.151 F
+(ar)144 355.2 Q(gument or on standard input.)-.18 E F2(MANLESS)108 372 Q
+F0 .422(If $)144 384 R F2(MANLESS)A F0 .422(is set, its v)2.922 F .422
+(alue will be used as the def)-.25 F .423(ault prompt string for the)-.1
+F F2(less)2.923 E F0(pager)2.923 E 2.923(,a)-.4 G 2.923(si)-2.923 G
+2.923(fi)-2.923 G(t)-2.923 E .4(had been passed using the)144 396 R F2
+<ad72>2.9 E F0 .399(option \(so an)2.9 F 2.899(yo)-.15 G .399
+(ccurrences of the te)-2.899 F(xt)-.15 E F2($MAN_PN)2.899 E F0 .399
+(will be e)2.899 F(xpanded)-.15 E 1.848(in the same w)144 408 R 4.348
+(ay\). F)-.1 F 1.849(or e)-.15 F 1.849(xample, if you w)-.15 F 1.849
+(ant to set the prompt string unconditionally to \231my)-.1 F 1.069
+(prompt string\232, set $)144 420 R F2(MANLESS)A F0 1.069(to `)3.569 F
+F2(\255Psmy pr)A(ompt string)-.18 E F0 3.569('. Using)B(the)3.569 E F2
+<ad72>3.569 E F0 1.069(option o)3.569 F -.15(ve)-.15 G 1.069
+(rrides this).15 F(en)144 432 Q(vironment v)-.4 E(ariable.)-.25 E F2(BR)
+108 448.8 Q -.5(OW)-.3 G(SER).5 E F0 1.052(If $)144 460.8 R F2(BR)A -.5
+(OW)-.3 G(SER).5 E F0 1.053(is set, its v)3.553 F 1.053
+(alue is a colon-delimited list of commands, each of which in turn is)
+-.25 F .758(used to try to start a web bro)144 472.8 R .757(wser for)
+-.25 F F2 .757(man \255\255html)3.257 F F0 5.757(.I)C 3.257(ne)-5.757 G
+.757(ach command,)-3.257 F F3(%s)2.967 E F0 .757
+(is replaced by a \214le-)3.527 F .613
+(name containing the HTML output from)144 484.8 R F2(gr)3.113 E(off)-.18
+E F0(,)A F3(%%)2.823 E F0 .613
+(is replaced by a single percent sign \(%\), and)3.183 F F3(%c)143.71
+496.8 Q F0(is replaced by a colon \(:\).)2.81 E F2(SYSTEM)108 513.6 Q F0
+.55(If $)144 525.6 R F2(SYSTEM)A F0 .55(is set, it will ha)3.05 F .85
+-.15(ve t)-.2 H .55(he same ef).15 F .55
+(fect as if it had been speci\214ed as the ar)-.25 F .55(gument to the)
+-.18 F F2<ad6d>144 537.6 Q F0(option.)2.5 E F2(MANOPT)108 554.4 Q F0
+.092(If $)144 566.4 R F2(MANOPT)A F0 .092
+(is set, it will be parsed prior to)2.592 F F2(man')2.592 E(s)-.37 E F0
+.092(command line and is e)2.592 F .092(xpected to be in a sim-)-.15 F
+.366(ilar format.)144 578.4 R .366(As all of the other)5.366 F F2(man)
+2.866 E F0 .366(speci\214c en)2.866 F .366(vironment v)-.4 F .366
+(ariables can be e)-.25 F .366(xpressed as command)-.15 F .17
+(line options, and are thus candidates for being included in $)144 590.4
+R F2(MANOPT)A F0 .171(it is e)2.671 F .171(xpected that the)-.15 F 2.671
+(yw)-.15 G(ill)-2.671 E .23(become obsolete.)144 602.4 R 2.73(N.B. All)
+5.23 F .23(spaces that should be interpreted as part of an option')2.73
+F 2.73(sa)-.55 G -.18(rg)-2.73 G .23(ument must).18 F(be escaped.)144
+614.4 Q F2(MANWIDTH)108 631.2 Q F0 .222(If $)144 643.2 R F2(MANWIDTH)A
+F0 .222(is set, its v)2.722 F .222
+(alue is used as the line length for which manual pages should be for)
+-.25 F(-)-.2 E 2.574(matted. If)144 655.2 R .074(it is not set, manual \
+pages will be formatted with a line length appropriate to the current)
+2.574 F .292(terminal \(using the v)144 667.2 R .292(alue of $)-.25 F F2
+(COLUMNS)A F0 2.792(,a)C(n)-2.792 E F2(ioctl)2.792 E F0 .292(\(2\) if a)
+B -.25(va)-.2 G .292(ilable, or f).25 F .292
+(alling back to 80 characters)-.1 F .247(if neither is a)144 679.2 R
+-.25(va)-.2 G 2.747(ilable\). Cat).25 F .247(pages will only be sa)2.747
+F -.15(ve)-.2 G 2.746(dw).15 G .246(hen the def)-2.746 F .246
+(ault formatting can be used, that)-.1 F
+(is when the terminal line length is between 66 and 80 characters.)144
+691.2 Q 188.17(2.8.3 2018-04-05)72 768 R(9)205.67 E 0 Cg EP
+%%Page: 10 10
+%%BeginPageSetup
+BP
+%%EndPageSetup
+/F0 10/Times-Roman@0 SF 159.015(MAN\(1\) Manual)72 48 R(pager utils)2.5
+E(MAN\(1\))161.515 E/F1 10/Times-Bold@0 SF(MAN_KEEP_FORMA)108 84 Q
+(TTING)-.95 E F0(Normally)144 96 Q 3.118(,w)-.65 G .619(hen output is n\
+ot being directed to a terminal \(such as to a \214le or a pipe\), form\
+atting)-3.118 F 1.52(characters are discarded to mak)144 108 R 4.02(ei)
+-.1 G 4.02(te)-4.02 G 1.52
+(asier to read the result without special tools.)-4.02 F(Ho)6.52 E(we)
+-.25 E -.15(ve)-.25 G 2.32 -.4(r, i).15 H(f).4 E($)144 120 Q F1
+(MAN_KEEP_FORMA)A(TTING)-.95 E F0 1.324(is set to an)3.824 F 3.824(yn)
+-.15 G 1.324(on-empty v)-3.824 F 1.324
+(alue, these formatting characters are)-.25 F 2.5(retained. This)144 132
+R(may be useful for wrappers around)2.5 E F1(man)2.5 E F0
+(that can interpret formatting characters.)2.5 E F1(MAN_KEEP_STDERR)108
+148.8 Q F0(Normally)144 160.8 Q 3.172(,w)-.65 G .672
+(hen output is being directed to a terminal \(usually to a pager\), an)
+-3.172 F 3.172(ye)-.15 G .671(rror output from)-3.172 F .115
+(the command used to produce formatted v)144 172.8 R .116
+(ersions of manual pages is discarded to a)-.15 F -.2(vo)-.2 G .116
+(id interfering).2 F 1.097(with the pager')144 184.8 R 3.596(sd)-.55 G
+(isplay)-3.596 E 6.096(.P)-.65 G 1.096(rograms such as)-6.096 F F1(gr)
+3.596 E(off)-.18 E F0 1.096(often produce relati)3.596 F -.15(ve)-.25 G
+1.096(ly minor error messages).15 F .713(about typographical problems s\
+uch as poor alignment, which are unsightly and generally confus-)144
+196.8 R .523(ing when displayed along with the manual page.)144 208.8 R
+(Ho)5.523 E(we)-.25 E -.15(ve)-.25 G 1.323 -.4(r, s).15 H .523
+(ome users w).4 F .522(ant to see them an)-.1 F(yw)-.15 E(ay)-.1 E(,)
+-.65 E .935(so, if $)144 220.8 R F1(MAN_KEEP_STDERR)A F0 .935
+(is set to an)3.435 F 3.435(yn)-.15 G .935(on-empty v)-3.435 F .935
+(alue, error output will be displayed as)-.25 F(usual.)144 232.8 Q F1
+(LANG)108 249.6 Q F0(,)A F1(LC_MESSA)2.5 E(GES)-.55 E F0 .477
+(Depending on system and implementation, either or both of $)144 261.6 R
+F1(LANG)A F0 .476(and $)2.976 F F1(LC_MESSA)A(GES)-.55 E F0(will)2.976 E
+1.278(be interrog)144 273.6 R 1.278
+(ated for the current message locale.)-.05 F F1(man)6.278 E F0 1.278
+(will display its messages in that locale \(if)3.778 F -.2(av)144 285.6
+S 2.5(ailable\). See)-.05 F F1(setlocale)2.5 E F0
+(\(3\) for precise details.)A/F2 10.95/Times-Bold@0 SF(FILES)72 302.4 Q
+/F3 10/Times-Italic@0 SF(/etc/manpath.con\214g)109.15 314.4 Q F0
+(man-db con\214guration \214le.)144 326.4 Q F3(/usr/shar)109.15 343.2 Q
+(e/man)-.37 E F0 2.5(Ag)144 355.2 S(lobal manual page hierarch)-2.5 E
+-.65(y.)-.05 G F3(/usr/shar)109.15 372 Q(e/man/inde)-.37 E
+(x.\(bt|db|dir|pa)-.2 E(g\))-.1 E F0 2.5(At)144 384 S(raditional global)
+-2.5 E F3(inde)2.51 E(x)-.2 E F0(database cache.)3.03 E F3(/var/cac)
+109.15 400.8 Q(he/man/inde)-.15 E(x.\(bt|db|dir|pa)-.2 E(g\))-.1 E F0
+(An FHS compliant global)144 412.8 Q F3(inde)2.51 E(x)-.2 E F0
+(database cache.)3.03 E F2(SEE ALSO)72 429.6 Q F1(apr)108 441.6 Q(opos)
+-.18 E F0(\(1\),)A F1(gr)4.172 E(off)-.18 E F0(\(1\),)A F1(less)4.171 E
+F0(\(1\),)A F1(manpath)4.171 E F0(\(1\),)A F1(nr)4.171 E(off)-.18 E F0
+(\(1\),)A F1(tr)4.171 E(off)-.18 E F0(\(1\),)A F1(whatis)4.171 E F0
+(\(1\),)A F1(zsoelim)4.171 E F0(\(1\),)A F1(setlocale)4.171 E F0(\(3\),)
+A F1(man-)4.171 E(path)108 453.6 Q F0(\(5\),)A F1(ascii)2.5 E F0(\(7\),)
+A F1(latin1)2.5 E F0(\(7\),)A F1(man)2.5 E F0(\(7\),)A F1(catman)2.5 E
+F0(\(8\),)A F1(mandb)2.5 E F0(\(8\), the man-db package manual,)A F1
+(FSSTND)2.5 E F2(HIST)72 470.4 Q(OR)-.197 E(Y)-.383 E F0
+(1990, 1991 \211 Originally written by John W)108 482.4 Q 2.5(.E)-.92 G
+(aton \(jwe@che.ute)-2.5 E(xas.edu\).)-.15 E 5.966(Dec 23 1992: Rik F)
+108 506.4 R 5.967(aith \(f)-.15 F 5.967(aith@cs.unc.edu\) applied b)-.1
+F 5.967(ug \214x)-.2 F 5.967(es supplied by W)-.15 F 5.967
+(illem Kasdorp)-.4 F(\(wkasdo@nikhefk.nik)108 518.4 Q(ef.nl\).)-.1 E
+.589(30th April 1994 \211 23rd February 2000: W)108 542.4 R .588
+(ilf. \(G.W)-.4 F(ilford@ee.surre)-.4 E -.65(y.)-.15 G .588
+(ac.uk\) has been de).65 F -.15(ve)-.25 G .588(loping and main-).15 F
+(taining this package with the help of a fe)108 554.4 Q 2.5(wd)-.25 G
+(edicated people.)-2.5 E .136(30th October 1996 \211 30th March 2001: F)
+108 578.4 R .137(abrizio Polacco <fpolacco@debian.or)-.15 F .137
+(g> maintained and enhanced)-.18 F(this package for the Debian project,\
+ with the help of all the community)108 590.4 Q(.)-.65 E .423
+(31st March 2001 \211 present day: Colin W)108 614.4 R .423(atson <cjw)
+-.8 F(atson@debian.or)-.1 E .423(g> is no)-.18 F 2.923(wd)-.25 G -2.15
+-.25(ev e)-2.923 H .423(loping and maintaining).25 F(man-db)108 626.4 Q
+(.)-.4 E 188.17(2.8.3 2018-04-05)72 768 R(10)200.67 E 0 Cg EP
+%%Trailer
+end
+%%EOF

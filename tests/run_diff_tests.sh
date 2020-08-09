@@ -11,6 +11,14 @@ which groff # get this into the CI logs for good record-keeping
 which grog # get this into the CI logs for good record-keeping
 groff -v # get this into the CI logs for good record-keeping
 
+# We need to remove some lines from 'an-old.tmac' that can insert
+# text into the PS output due to groff version mismatch
+git checkout ${CUR_GIT_ROOT}/local_install/share/groff/tmac/an-old.tmac
+pushd ${CUR_GIT_ROOT} >& /dev/null
+  git apply ${THISDIR}/an-old.tmac.patch
+popd >& /dev/null
+
+
 mkdir -p ${TEST_OUT}
 rm -rf ${TEST_OUT}/*
 
