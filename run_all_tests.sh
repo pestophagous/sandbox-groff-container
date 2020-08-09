@@ -30,6 +30,7 @@ else
 fi
 
 CUR_GIT_ROOT=$(git rev-parse --show-toplevel)
+cd $CUR_GIT_ROOT
 
 clean_up () {
   # undo some edits that the tests make (in case where a test failed, causing bash ERR)
@@ -44,3 +45,4 @@ trap clean_up ERR
 source ${CUR_GIT_ROOT}/path_to_local_groff.bash
 
 ./tests/run_diff_tests.sh
+./tests/run_unit_tests.sh
