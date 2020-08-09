@@ -29,5 +29,10 @@ else
   XDISPLAY=""
 fi
 
+CUR_GIT_ROOT=$(git rev-parse --show-toplevel)
 
 ./build.sh
+
+source ${CUR_GIT_ROOT}/path_to_local_groff.bash
+
+./tests/run_diff_tests.sh
