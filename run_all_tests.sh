@@ -31,6 +31,14 @@ fi
 
 CUR_GIT_ROOT=$(git rev-parse --show-toplevel)
 
+clean_up () {
+  # undo some edits that the tests make (in case where a test failed, causing bash ERR)
+  ARG=$?
+  git checkout ${CUR_GIT_ROOT}/local_install/share/groff/tmac/an-old.tmac
+  exit $ARG
+}
+trap clean_up ERR
+
 ./build.sh
 
 source ${CUR_GIT_ROOT}/path_to_local_groff.bash

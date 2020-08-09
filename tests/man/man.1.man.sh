@@ -8,4 +8,4 @@ OUTFILE=$2
 GROFFARGS=${3-}
 # The '-' hyphens above test without angering the 'set -u' about unbound variables
 
-groff $GROFFARGS -T ps -P-pa4 -me $INFILE > $OUTFILE
+groff $GROFFARGS -T ps -t -P-pletter -man $INFILE > $OUTFILE

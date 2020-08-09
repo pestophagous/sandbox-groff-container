@@ -11,6 +11,14 @@ which groff # get this into the CI logs for good record-keeping
 which grog # get this into the CI logs for good record-keeping
 groff -v # get this into the CI logs for good record-keeping
 
+# We need to remove some lines from 'an-old.tmac' that can insert
+# text into the PS output due to groff version mismatch
+git checkout ${CUR_GIT_ROOT}/local_install/share/groff/tmac/an-old.tmac
+pushd ${CUR_GIT_ROOT} >& /dev/null
+  git apply ${THISDIR}/an-old.tmac.patch
+popd >& /dev/null
+
+
 mkdir -p ${TEST_OUT}
 rm -rf ${TEST_OUT}/*
 
@@ -21,18 +29,32 @@ run_single_test() {
       echo $d
 
       BNAME=$(basename $d)
-      GROFF_OUT=$(mktemp --dry-run --tmpdir=${TEST_OUT} ${BNAME}.XXX)
-      echo $GROFF_OUT
+      GROFF_OUT_PS=$(mktemp --dry-run --tmpdir=${TEST_OUT} ${BNAME}.XXX)
+      echo $GROFF_OUT_PS
+      GROFF_OUT_INTER=$(mktemp --dry-run --tmpdir=${TEST_OUT} ${BNAME}.XXX)
       GROFF_CMD=${d}.sh
 
       # generate PS output:
-      $GROFF_CMD $d $GROFF_OUT
+      $GROFF_CMD $d $GROFF_OUT_PS
       # strip timestamps from PS output:
-      $THISDIR/sanitize_ps_output.sh $GROFF_OUT
+      $THISDIR/sanitize_ps_output.sh $GROFF_OUT_PS
 
       # now compare it to the golden copy:
-      GOLDEN=${d}.ps.sanitized
-      diff $GOLDEN $GROFF_OUT
+      GOLDEN_PS=${d}.ps.sanitized
+      diff $GOLDEN_PS $GROFF_OUT_PS
+      diff_rslt=$?
+      # per 'man diff': Exit status is 0 if inputs are the same
+      # If someone disables 'set -x', then explicitly fail here regardless:
+      if [ $diff_rslt != 0 ]; then echo early termination at $LINENO; return -1; fi
+
+      # generate INTERMEDIATE output:
+      $GROFF_CMD $d $GROFF_OUT_INTER -Z
+      # adjust the 'x F' filename line:
+      $THISDIR/sanitize_inter_output.sh $GROFF_OUT_INTER $BNAME
+
+      # now compare it to the golden copy:
+      GOLDEN_INTER=${d}.intermediate
+      diff $GOLDEN_INTER $GROFF_OUT_INTER
       diff_rslt=$?
       # per 'man diff': Exit status is 0 if inputs are the same
       # If someone disables 'set -x', then explicitly fail here regardless:
@@ -65,6 +87,8 @@ for dr in "${top_level_dirs[@]}"; do
   fi
 done
 
+# Put the tmac file back the way we found it initially:
+git checkout ${CUR_GIT_ROOT}/local_install/share/groff/tmac/an-old.tmac
 echo 'We assume this was run with '\''set -x'\'' (look at upper lines of this script).'
 echo 'Assuming so, then getting here means:'
 echo 'SUCCESS'

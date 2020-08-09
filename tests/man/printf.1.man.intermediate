@@ -1,0 +1,1072 @@
+x T ps
+x res 72000 1 1
+x init
+x F printf.1.man
+p1
+x font 5 TR
+f5
+s10000
+V48000
+H72000
+md
+DFd
+tPRINTF(1)
+h154420
+tUser
+wh2500
+tCommands
+h154420
+tPRINTF(1)
+n12000 0
+V84000
+H72000
+x X devtag:.NH 1
+x font 38 TB
+f38
+s10950
+V84000
+H72000
+tN
+H79687
+tAME
+wh2738
+x X devtag:.eo.h
+V84000
+H107972
+n12000 0
+f5
+s10000
+V96000
+H108000
+tprintf
+wh2500
+C\-
+wh8140
+tformat
+wh2500
+tand
+wh2500
+tprint
+wh2500
+tdata
+n12000 0
+V112800
+H72000
+x X devtag:.NH 1
+f38
+s10950
+V112800
+H72000
+tSYNOPSIS
+wh2738
+x X devtag:.eo.h
+V112800
+H128283
+n12000 0
+s10000
+V124800
+H108000
+tprintf
+wx font 40 TI
+f40
+h2920
+tFORMA
+H169430
+tT
+wf5
+h2500
+t[
+f40
+h1010
+tARGUMENT
+f5
+h1270
+t]...
+n12000 0
+f38
+V136800
+H108000
+tprintf
+wf40
+h2400
+tOPTION
+h1100
+n12000 0
+V153600
+H72000
+x X devtag:.NH 1
+f38
+s10950
+V153600
+H72000
+tDESCRIPTION
+wh2738
+x X devtag:.eo.h
+V153600
+H150787
+n12000 0
+f5
+s10000
+V165600
+H108000
+tPrint
+wh2500
+tARGUMENT(s)
+wh2500
+taccording
+wh2500
+tto
+wh2500
+tFORMA
+H286320
+tT
+H291690
+t,
+wh2500
+tor
+wh2500
+te
+H311810
+tx
+H316660
+tecute
+wh2500
+taccording
+wh2500
+tto
+wh2500
+tOPTION:
+n12000 0
+V182400
+H108000
+x X devtag:.col 1
+f38
+V182400
+H108000
+C\-
+h5700
+C\-
+h5700
+thelp
+n12000 0
+f5
+V182400
+H144000
+tdisplay
+wh2500
+tthis
+wh2500
+thelp
+wh2500
+tand
+wh2500
+te
+H233290
+txit
+n12000 0
+f38
+V199200
+H108000
+C\-
+h5700
+C\-
+h5700
+tv
+H124300
+tersion
+n12000 0
+f5
+V211200
+H144000
+toutput
+wh2500
+tv
+H176910
+tersion
+wh2500
+tinformation
+wh2500
+tand
+wh2500
+te
+H274800
+txit
+n12000 0
+V228000
+H108000
+tFORMA
+H142450
+tT
+wh2500
+tcontrols
+wh2500
+tthe
+wh2500
+toutput
+wh2500
+tas
+wh2500
+tin
+wh2500
+tC
+wh2500
+tprintf.
+wh5000
+tInterpreted
+wh2500
+tsequences
+wh2500
+tare:
+n12000 0
+V244800
+H108000
+x X devtag:.col 1
+V244800
+H108000
+t\"
+n12000 0
+V244800
+H144000
+tdouble
+wh2500
+tquote
+n12000 0
+V261600
+H108000
+x X devtag:.col 1
+V261600
+H108000
+t\\
+n12000 0
+V261600
+H144000
+tbackslash
+n12000 0
+V278400
+H108000
+x X devtag:.col 1
+V278400
+H108000
+t\a
+n12000 0
+V278400
+H144000
+talert
+wh2500
+t(BEL)
+n12000 0
+V295200
+H108000
+x X devtag:.col 1
+V295200
+H108000
+t\b
+n12000 0
+V295200
+H144000
+tbackspace
+n12000 0
+V312000
+H108000
+x X devtag:.col 1
+V312000
+H108000
+t\c
+n12000 0
+V312000
+H144000
+tproduce
+wh2500
+tno
+wh2500
+tfurther
+wh2500
+toutput
+n12000 0
+V328800
+H108000
+x X devtag:.col 1
+V328800
+H108000
+t\e
+n12000 0
+V328800
+H144000
+tescape
+n12000 0
+V345600
+H108000
+x X devtag:.col 1
+V345600
+H108000
+t\f
+n12000 0
+V345600
+H144000
+tform
+wh2500
+tfeed
+n12000 0
+V362400
+H108000
+x X devtag:.col 1
+V362400
+H108000
+t\n
+n12000 0
+V362400
+H144000
+tne
+H153190
+tw
+wh2500
+tline
+n12000 0
+V379200
+H108000
+x X devtag:.col 1
+V379200
+H108000
+t\r
+n12000 0
+V379200
+H144000
+tcarriage
+wh2500
+treturn
+n12000 0
+V396000
+H108000
+x X devtag:.col 1
+V396000
+H108000
+t\t
+n12000 0
+V396000
+H144000
+thorizontal
+wh2500
+ttab
+n12000 0
+V412800
+H108000
+x X devtag:.col 1
+V412800
+H108000
+t\v
+n12000 0
+V412800
+H144000
+tv
+H148850
+tertical
+wh2500
+ttab
+n12000 0
+V429600
+H108000
+x X devtag:.col 1
+V429600
+H108000
+t\NNN
+n12000 0
+V429600
+H144000
+tbyte
+wh2500
+twith
+wh2500
+toctal
+wh2500
+tv
+H210690
+talue
+wh2500
+tNNN
+wh2500
+t(1
+wh2500
+tto
+wh2500
+t3
+wh2500
+tdigits)
+n12000 0
+V446400
+H108000
+x X devtag:.col 1
+V446400
+H108000
+t\xHH
+n12000 0
+V446400
+H144000
+tbyte
+wh2500
+twith
+wh2500
+the
+H193290
+txadecimal
+wh2500
+tv
+H241640
+talue
+wh2500
+tHH
+wh2500
+t(1
+wh2500
+tto
+wh2500
+t2
+wh2500
+tdigits)
+n12000 0
+V463200
+H108000
+t\uHHHH
+n12000 0
+V475200
+H144000
+tUnicode
+wh2500
+t(ISO/IEC
+wh2500
+t10646)
+wh2500
+tcharacter
+wh2500
+twith
+wh2500
+the
+H320750
+tx
+wh2500
+tv
+H333000
+talue
+wh2500
+tHHHH
+wh2500
+t(4
+wh2500
+tdigits)
+n12000 0
+V492000
+H108000
+t\UHHHHHHHH
+n12000 0
+V504000
+H144000
+tUnicode
+wh2500
+tcharacter
+wh2500
+twith
+wh2500
+the
+H249090
+tx
+wh2500
+tv
+H261340
+talue
+wh2500
+tHHHHHHHH
+wh2500
+t(8
+wh2500
+tdigits)
+n12000 0
+V520800
+H108000
+x X devtag:.col 1
+V520800
+H108000
+t%%
+n12000 0
+V520800
+H144000
+ta
+wh2500
+tsingle
+wh2500
+t%
+n12000 0
+V537600
+H108000
+x X devtag:.col 1
+V537600
+H108000
+t%b
+n12000 0
+V537600
+H144000
+tARGUMENT
+wh3082
+tas
+wh3082
+ta
+wh3082
+tstring
+wh3082
+twith
+wh3081
+t'\'
+wh3081
+tescapes
+wh3081
+tinterpreted,
+wh3081
+te
+H368732
+txcept
+wh3081
+tthat
+wh3081
+toctal
+wh3081
+tescapes
+wh3081
+tare
+wh3081
+tof
+wh3081
+tthe
+wh3081
+tform
+wh3081
+t\0
+n12000 0
+V549600
+H144000
+tor
+wh2500
+t\0NNN
+n12000 0
+V566400
+H108000
+x X devtag:.col 1
+V566400
+H108000
+t%q
+n12000 0
+V566400
+H144000
+tARGUMENT
+wh2616
+tis
+wh2616
+tprinted
+wh2616
+tin
+wh2616
+ta
+wh2616
+tformat
+wh2616
+tthat
+wh2616
+tcan
+wh2616
+tbe
+wh2616
+treused
+wh2616
+tas
+wh2616
+tshell
+wh2616
+tinput,
+wh2616
+tescaping
+wh2616
+tnon
+C\-
+h5640
+tprintable
+wh2616
+tchar
+H536670
+Chy
+h3330
+n12000 0
+V578400
+H144000
+tacters
+wh2500
+twith
+wh2500
+tthe
+wh2500
+tproposed
+wh2500
+tPOSIX
+wh2500
+t$'
+H282960
+t'
+wh2500
+tsyntax.
+n12000 0
+V595200
+H108000
+tand
+wh4624
+tall
+wh4623
+tC
+wh4623
+tformat
+wh4623
+tspeci
+Cfi
+h5560
+tcations
+wh4623
+tending
+wh4623
+twith
+wh4623
+tone
+wh4623
+tof
+wh4623
+tdiouxXfeEgGcs,
+wh4623
+twith
+wh4623
+tARGUMENTs
+wh4623
+tcon
+H502757
+tv
+H507607
+terted
+wh4623
+tto
+n12000 0
+V607200
+H108000
+tproper
+wh2500
+ttype
+wh2500
+Cfi
+h5560
+trst.
+wh5000
+tV
+H185490
+tariable
+wh2500
+twidths
+wh2500
+tare
+wh2500
+thandled.
+n12000 0
+V624000
+H108000
+tNO
+H122040
+tTE:
+wh2815
+tyour
+wh2815
+tshell
+wh2815
+tmay
+wh2815
+tha
+H211980
+tv
+H216830
+te
+wh2815
+tits
+wh2815
+to
+H241100
+twn
+wh2815
+tv
+H260985
+tersion
+wh2815
+tof
+wh2815
+tprintf,
+wh2815
+twhich
+wh2815
+tusually
+wh2815
+tsupersedes
+wh2815
+tthe
+wh2815
+tv
+H451900
+tersion
+wh2815
+tdescribed
+wh2815
+there.
+n12000 0
+V636000
+H108000
+tPlease
+wh2500
+trefer
+wh2500
+tto
+wh2500
+tyour
+wh2500
+tshell'
+H210200
+ts
+wh2500
+tdocumentation
+wh2500
+tfor
+wh2500
+tdetails
+wh2500
+tabout
+wh2500
+tthe
+wh2500
+toptions
+wh2500
+tit
+wh2500
+tsupports.
+n12000 0
+V652800
+H72000
+x X devtag:.NH 1
+f38
+s10950
+V652800
+H72000
+tA
+H79358
+tUTHOR
+wh2738
+x X devtag:.eo.h
+V652800
+H122250
+n12000 0
+f5
+s10000
+V664800
+H108000
+tWritten
+wh2500
+tby
+wh2500
+tDa
+H165010
+tvid
+wh2500
+tMacK
+H205030
+tenzie.
+n12000 0
+V681600
+H72000
+x X devtag:.NH 1
+f38
+s10950
+V681600
+H72000
+tREPOR
+H109887
+tTING
+wh2738
+tB
+H147808
+tUGS
+wh2738
+x X devtag:.eo.h
+V681600
+H173059
+n12000 0
+f5
+s10000
+V693600
+H108000
+tGNU
+wh2500
+tcoreutils
+wh2500
+tonline
+wh2500
+thelp:
+wh2500
+t<http://www
+H269650
+t.gnu.or
+H297800
+tg/softw
+H327700
+tare/coreutils/>
+n12000 0
+V705600
+H108000
+tReport
+wh2500
+tprintf
+wh2500
+ttranslation
+wh2500
+tb
+H211960
+tugs
+wh2500
+tto
+wh2500
+t<http://translationproject.or
+H348810
+tg/team/>
+n12000 0
+V768000
+H72000
+tGNU
+wh2500
+tcoreutils
+wh2500
+t8.28
+h128600
+tJanuary
+wh2500
+t2018
+h202200
+t1
+n12000 0
+V792000
+p2
+x font 5 TR
+f5
+s10000
+V48000
+H72000
+tPRINTF(1)
+h154420
+tUser
+wh2500
+tCommands
+h154420
+tPRINTF(1)
+n12000 0
+V84000
+H72000
+x X devtag:.NH 1
+x font 38 TB
+f38
+s10950
+V84000
+H72000
+tCOPYRIGHT
+wh2738
+x X devtag:.eo.h
+V84000
+H142267
+n12000 0
+f5
+s10000
+V96000
+H108000
+tCop
+H124570
+tyright
+wh5368
+Cco
+wh12968
+t2017
+wh5367
+tFree
+wh5367
+tSoftw
+H239090
+tare
+wh5367
+tF
+H262077
+toundation,
+wh5367
+tInc.
+wh7867
+tLicense
+wh5367
+tGPLv3+:
+wh5367
+tGNU
+wh5367
+tGPL
+wh5367
+tv
+H468359
+tersion
+wh5367
+t3
+wh5367
+tor
+wh5367
+tlater
+n12000 0
+V108000
+H108000
+t<http://gnu.or
+H163190
+tg/licenses/gpl.html>.
+n12000 0
+V120000
+H108000
+tThis
+wh3288
+tis
+wh3288
+tfree
+wh3289
+tsoftw
+H179975
+tare:
+wh3289
+tyou
+wh3289
+tare
+wh3289
+tfree
+wh3289
+tto
+wh3289
+tchange
+wh3289
+tand
+wh3289
+tredistrib
+H344408
+tute
+wh3289
+tit.
+wh5789
+tThere
+wh3289
+tis
+wh3289
+tNO
+wh3289
+tW
+H436303
+tARRANTY
+H483343
+t,
+wh3289
+tto
+wh3289
+tthe
+wh3289
+te
+H520000
+txtent
+n12000 0
+V132000
+H108000
+tpermitted
+wh2500
+tby
+wh2500
+tla
+H168400
+tw
+H174970
+t.
+n12000 0
+V148800
+H72000
+x X devtag:.NH 1
+f38
+s10950
+V148800
+H72000
+tSEE
+wh2738
+tALSO
+wh2738
+x X devtag:.eo.h
+V148800
+H127989
+n12000 0
+f5
+s10000
+V160800
+H108000
+tprintf(3)
+n12000 0
+V177600
+H108000
+tFull
+wh2500
+tdocumentation
+wh2500
+tat:
+wh2500
+t<http://www
+H251610
+t.gnu.or
+H279760
+tg/softw
+H309660
+tare/coreutils/printf>
+n12000 0
+V189600
+H108000
+tor
+wh2500
+ta
+H123070
+tv
+H127820
+tailable
+wh2500
+tlocally
+wh2500
+tvia:
+wh2500
+tinfo
+wh2500
+Caq
+h1800
+t(coreutils)
+wh2500
+tprintf
+wh2500
+tin
+H300310
+tv
+H305110
+tocation
+Caq
+h1800
+n12000 0
+V768000
+H72000
+tGNU
+wh2500
+tcoreutils
+wh2500
+t8.28
+h128600
+tJanuary
+wh2500
+t2018
+h202200
+t2
+n12000 0
+x trailer
+V792000
+x stop
