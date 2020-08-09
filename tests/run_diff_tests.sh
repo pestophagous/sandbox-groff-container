@@ -23,9 +23,10 @@ run_single_test() {
       BNAME=$(basename $d)
       GROFF_OUT=$(mktemp --dry-run --tmpdir=${TEST_OUT} ${BNAME}.XXX)
       echo $GROFF_OUT
+      GROFF_CMD=${d}.sh
 
       # generate PS output:
-      grog -Tps --run $d > $GROFF_OUT
+      $GROFF_CMD $d $GROFF_OUT
       # strip timestamps from PS output:
       $THISDIR/sanitize_ps_output.sh $GROFF_OUT
 
@@ -57,6 +58,7 @@ for dr in "${top_level_dirs[@]}"; do
          \( -name '*\.roff' \
          -o -name '*\.man' \
          -o -name '*\.mm' \
+         -o -name '*\.me' \
          -o -name '*\.mom' \
          -o -name '*\.ms' \) \
          | run_single_test
