@@ -1,0 +1,105 @@
+diff --git a/src/roff/groff/groff.cpp b/src/roff/groff/groff.cpp
+index a3815bf3..cdb07006 100644
+--- a/src/roff/groff/groff.cpp
++++ b/src/roff/groff/groff.cpp
+@@ -572,7 +572,10 @@ int run_commands(int no_pipe)
+   for (int i = 0; i < NCOMMANDS; i++)
+     if (commands[i].get_name() != 0)
+       v[j++] = commands[i].get_argv();
+-  return run_pipeline(j, v, no_pipe);
++
++  const bool waitfor = getenv("LOCAL_GROFF_FORKS_PAUSE") != nullptr;
++
++  return run_pipeline(waitfor ? 1 : 0, j, v, no_pipe);
+ }
+ 
+ possible_command::possible_command()
+@@ -842,6 +846,12 @@ void usage(FILE *stream)
+ 
+ extern "C" {
+ 
++void c_warning(const char *format, const char *arg1, const char *arg2,
++	     const char *arg3)
++{
++  warning(format, arg1, arg2, arg3);
++}
++
+ void c_error(const char *format, const char *arg1, const char *arg2,
+ 	     const char *arg3)
+ {
+diff --git a/src/roff/groff/pipeline.c b/src/roff/groff/pipeline.c
+index 2e3236f3..15f32a5a 100644
+--- a/src/roff/groff/pipeline.c
++++ b/src/roff/groff/pipeline.c
+@@ -78,12 +78,13 @@ extern char *strerror();
+ #define error c_error
+ 
+ /* Prototype */
+-int run_pipeline(int, char ***, int);
++int run_pipeline(int, int, char ***, int);
+ 
+ #ifdef __cplusplus
+ extern "C" {
+ #endif
+ 
++extern void c_warning(const char *, const char *, const char *, const char *);
+ extern void error(const char *, const char *, const char *, const char *);
+ extern void c_fatal(const char *, const char *, const char *, const char *);
+ extern const char *i_to_a(int);		/* from libgroff */
+@@ -392,7 +393,7 @@ int run_pipeline(int ncommands, char ***commands, int no_pipe)
+       if (f < 0)
+ 	sys_fatal("open stdin");
+       if (dup2(f, 0) < 0)
+-	sys_fatal("dup2 stdin"); 
++	sys_fatal("dup2 stdin");
+       if (close(f) < 0)
+ 	sys_fatal("close stdin");
+     }
+@@ -445,7 +446,7 @@ int run_pipeline(int ncommands, char ***commands, int no_pipe)
+ 
+ #else /* not __MSDOS__, not _WIN32 */
+ 
+-int run_pipeline(int ncommands, char ***commands, int no_pipe)
++int run_pipeline(int waitfordebug, int ncommands, char ***commands, int no_pipe)
+ {
+   int i;
+   int last_input = 0;
+@@ -461,10 +462,25 @@ int run_pipeline(int ncommands, char ***commands, int no_pipe)
+       if (pipe(pdes) < 0)
+ 	sys_fatal("pipe");
+     }
++    int dbg = 0;
++    while (commands[i][dbg]) {
++      c_warning("(HELPFUL INFO) pipeline about to exec: %1",
++              commands[i][dbg], (char *)0, (char *)0);
++      dbg++;
++    }
++
+     pid = fork();
+     if (pid < 0)
+       sys_fatal("fork");
+     if (pid == 0) {
++      volatile int debugger = 0;
++      if (waitfordebug){
++      while (!debugger){
++        sleep(1);
++        fprintf(stderr, ".");
++      }
++      }
++
+       /* child */
+       if (last_input != 0) {
+ 	if (close(0) < 0)
+diff --git a/src/roff/groff/pipeline.h b/src/roff/groff/pipeline.h
+index 1d44c6ac..80c519c5 100644
+--- a/src/roff/groff/pipeline.h
++++ b/src/roff/groff/pipeline.h
+@@ -18,7 +18,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>. */
+ 
+ #ifdef __cplusplus
+ extern "C" {
+-  int run_pipeline(int, char ***, int);
++  int run_pipeline(int, int, char ***, int);
+ }
+ #endif
+ 
